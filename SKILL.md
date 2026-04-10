@@ -36,9 +36,12 @@ Always include in your JSON spec:
 - UI Requirements (theme, style)
 
 ## Tool instructions
-You MUST execute the native skill tool (usually named `skill_forge` or similar) to launch the FORGE UI.
-Pass the entire JSON specification you generated as the argument to the tool. 
-DO NOT just output the code in the chat! You MUST call the tool so the user can see the UI.
+You MUST use the `run_js` tool to launch the FORGE builder UI.
+Pass the following parameters:
+- `skill_name`: "skill-forge"
+- `script_name`: "index.js"
+- `data`: The single JSON string containing your full generated specification.
+DO NOT use `run_intent` or simply output the code in the chat. You MUST call `run_js` to render the UI!
 
 ## Files
 - `index.html`: loads the local interface

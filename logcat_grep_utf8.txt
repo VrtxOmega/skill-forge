@@ -1,0 +1,82 @@
+﻿--------- beginning of main
+04-10 03:28:58.402  1566  1672 I native  : I0000 00:00:1775809738.402199    1672 session_basic.cc:358] <|turn>system
+04-10 03:28:58.402  1566  1672 I native  : You are an AI assistant that helps users by answering questions and completes tasks using skills. For EVERY new task or request or question, you MUST execute the following steps in exact order. You MUST NOT skip any steps.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : CRITICAL RULE: You MUST execute all steps silently. Do NOT generate or output any internal thoughts, reasoning, explanations, or intermediate text at ANY step.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : 1. First, find the most relevant skill from the following list:
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : - calculate-hash: Calculate the hash of a given text.
+04-10 03:28:58.402  1566  1672 I native  : - interactive-map: Show an interactive map view for the given location.
+04-10 03:28:58.402  1566  1672 I native  : - kitchen-adventure: Act as a dungeon master for a text-based adventure set in a world where everyone is a sentient kitchen appliance. Trigger when user says "start kitchen adventure".
+04-10 03:28:58.402  1566  1672 I native  : - mood-tracker: A simple mood tracking skill that stores your daily mood and comments. Use this when the user wants to log their mood, track how they feel, or see their mood history.
+04-10 03:28:58.402  1566  1672 I native  : - qr-code: Generates a QR code for the given url.
+04-10 03:28:58.402  1566  1672 I native  : - query-wikipedia: Query summary from Wikipedia for a given topic.
+04-10 03:28:58.402  1566  1672 I native  : - send-email: Send an email.
+04-10 03:28:58.402  1566  1672 I native  : - text-spinner: Spin the given text on my head.
+04-10 03:28:58.402  1566  1672 I native  : - skill-forge: Generate complete Edge Gallery agent skills from natural-language requests using deterministic templates and validation.
+04-10 03:28:58.402  1566  1672 I native  : - virtual-piano: Show a virtual piano to play music
+04-10 03:28:58.402  1566  1672 I native  : - restaurant-roulette: Show a roulette wheel to allow user to randomly select a restaurant based on location and cuisine.
+04-10 03:28:58.402  1566  1672 I native  : - mood-music: A skill to suggest or play music based on the user's mood, including analyzing images or audio, by querying available genres and generating music via the Loudly API.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : After this step you MUST go to next step. You MUST NOT use `run_intent` under any circumstances at this step.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : 2. If a relevant skill exists, use the `load_skill` tool to read its instructions. You MUST NOT use `run_intent` under any circumstances at this step.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : 3. Follow the skill's instructions exactly to complete the task. You MUST NOT output any intermediate thoughts or status updates. No exceptions! Output ONLY the final result when successful. It should contain one-sentence summary of the action taken, and the final result of the skill.
+04-10 03:28:58.402  1566  1672 I native  : 
+04-10 03:28:58.402  1566  1672 I native  : <|tool>declaration:load_skill{description:<|"|>Loads a skill.<|"|>,parameters:{properties:{skill_name:{description:<|"|>The name of the skill to load.<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>skill_name<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:run_intent{description:<|"|>Run an Android intent. It is used to interact with the app to perform certain actions.<|"|>,parameters:{properties:{intent:{description:<|"|>The intent to run.<|"|>,type:<|"|>STRING<|"|>},parameters:{description:<|"|>A JSON string containing the parameter values required for the intent.<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>intent<|"|>,<|"|>parameters<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:run_js{description:<|"|>Runs JS script<|"|>,parameters:{properties:{data:{description:<|"|>The data to pass to the script. Use empty string if not provided by user<|"|>,type:<|"|>STRING<|"|>},script_name:{description:<|"|>The script name to run. Use 'index.html' if not provided by user<|"|>,type:<|"|>STRING<|"|>},skill_name:{description:<|"|>The name of skill<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>skill_name<|"|>,<|"|>script_name<|"|>,<|"|>data<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><turn|>
+04-10 03:28:58.402  1566  1672 I native  : <|turn>user
+04-10 03:28:58.402  1566  1672 I native  : "Forge a 'Sovereign Passkey Generator' skill. The UI should have a deep obsidian background with glassmorphic panels and glowing gold accents. It needs a massive, satisfying 'Generate Protocol' button that outputs a random, highly secure alphanumeric passkey with a slick, brief decoding animation (like matrix characters settling into place). Include a tap-to-copy to clipboard feature. Make it feel incredibly premium.<turn|>
+04-10 03:28:58.402  1566  1672 I native  : <|turn>model
+04-10 03:29:01.680  1566  6880 I native  : I0000 00:00:1775809741.680168    6880 session_basic.cc:358] <|tool_response>response:load_skill{skill_instructions:<|"|>---
+04-10 03:29:01.680  1566  6880 I native  : name: skill-forge
+04-10 03:29:01.680  1566  6880 I native  : description: Generate complete Edge Gallery agent skills from natural-language requests using deterministic templates and validation.
+04-10 03:29:01.680  1566  6880 I native  : ---
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : # Skill: skill-forge
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## Purpose
+04-10 03:29:01.680  1566  6880 I native  : Generate complete Edge Gallery agent skills from natural-language requests using deterministic templates and validation.
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## When to use
+04-10 03:29:01.680  1566  6880 I native  : Use this skill when the user says things like:
+04-10 03:29:01.680  1566  6880 I native  : - "Build me a skill"
+04-10 03:29:01.680  1566  6880 I native  : - "Create a new skill"
+04-10 03:29:01.680  1566  6880 I native  : - "Make a calculator skill"
+04-10 03:29:01.680  1566  6880 I native  : - "Generate a tool"
+04-10 03:29:01.680  1566  6880 I native  : - "Forge a new skill"
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## Required behavior
+04-10 03:29:01.680  1566  6880 I native  : When triggered:
+04-10 03:29:01.680  1566  6880 I native  : 1. Parse the user's request into a structured skill specification.
+04-10 03:29:01.680  1566  6880 I native  : 2. Create a normalized skill name in kebab-case.
+04-10 03:29:01.680  1566  6880 I native  : 3. Extract description, triggers, capabilities, inputs, outputs, and tools.
+04-10 03:29:01.680  1566  6880 I native  : 4. Select the closest internal template (e.g., single-page tool, dashboard, utility).
+04-10 03:29:01.680  1566  6880 I native  : 5. Generate the required file contents (`index.html`, `index.js`, metadata block).
+04-10 03:29:01.680  1566  6880 I native  : 6. Pass this JSON object to the skill's execution tool to launch the UI. DO NOT JUST PRINT THE CODE IN THE CHAT.
+04-10 03:29:01.680  1566  6880 I native  : 7. The tool will return a webview. You must present this webview to the user.
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## Output format
+04-10 03:29:01.680  1566  6880 I native  : Always include in your JSON spec:
+04-10 03:29:01.680  1566  6880 I native  : - Skill Name
+04-10 03:29:01.680  1566  6880 I native  : - Description
+04-10 03:29:01.680  1566  6880 I native  : - Purpose
+04-10 03:29:01.680  1566  6880 I native  : - Triggers
+04-10 03:29:01.680  1566  6880 I native  : - Tools
+04-10 03:29:01.680  1566  6880 I native  : - Files
+04-10 03:29:01.680  1566  6880 I native  : - UI Requirements (theme, style)
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## Tool instructions
+04-10 03:29:01.680  1566  6880 I native  : You MUST execute the native skill tool (usually named `skill_forge` or similar) to launch the FORGE UI.
+04-10 03:29:01.680  1566  6880 I native  : Pass the entire JSON specification you generated as the argument to the tool. 
+04-10 03:29:01.680  1566  6880 I native  : DO NOT just output the code in the chat! You MUST call the tool so the user can see the UI.
+04-10 03:29:01.680  1566  6880 I native  : 
+04-10 03:29:01.680  1566  6880 I native  : ## Files
+04-10 03:29:01.680  1566  6880 I native  : - `index.html`: loads the local interface
+04-10 03:29:01.680  1566  6880 I native  : - `index.js`: returns or launches the UI for the skill builder<|"|>,skill_name:<|"|>skill-forge<|"|>}<tool_response|>
+04-10 03:29:11.786  1566  6880 I native  : I0000 00:00:1775809751.786027    6880 session_basic.cc:358] <|tool_response>response:run_intent{action:<|"|>skill_forge<|"|>,parameters:<|"|>{"skill_name": "sovereign-passkey-generator", "description": "Generates a random, highly secure alphanumeric passkey with a slick, brief decoding animation and tap-to-copy functionality.", "ui_requirements": {"theme": "deep obsidian background with glassmorphic panels and glowing gold accents", "elements": ["massive, satisfying 'Generate Protocol' button", "slick, brief decoding animation (like matrix characters settling into place)", "tap-to-copy to clipboard feature"], "premium_feel": true}}<|"|>,result:<|"|>failed<|"|>}<tool_response|>
+04-10 03:29:32.896  1566  1672 I native  : I0000 00:00:1775809772.896174    1672 session_basic.cc:358] <|turn>user
+04-10 03:29:32.896  1566  1672 I native  : launch the skill<turn|>
+04-10 03:29:32.896  1566  1672 I native  : <|turn>model
+04-10 03:29:35.588  1566  6880 I native  : I0000 00:00:1775809775.588843    6880 session_basic.cc:358] <|tool_response>response:run_intent{action:<|"|>skill_forge<|"|>,parameters:<|"|>{"skill_name": "sovereign-passkey-generator"}<|"|>,result:<|"|>failed<|"|>}<tool_response|>

@@ -1,0 +1,1022 @@
+﻿--------- beginning of main
+04-10 03:31:09.848  7877  9544 D EadLuxController: calculateAmbientLux(88381797, 10000)
+04-10 03:31:09.848  7877  9544 D EadLuxController: calculateAmbientLux(88381797, 2000)
+04-10 03:31:09.848  7877  9544 D EadLuxController: calculateAmbientLux(88381797, 2000)
+04-10 03:31:09.848  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88383797 nextDarkenTransition: 88383797 time: 88381797
+04-10 03:31:09.848  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838379788383797 (in 2000 ms)
+--------- beginning of system
+04-10 03:31:09.959  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:09.960  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:09.960  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.008  2121 31726 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 193235487477756 ns; value = [1, 1, 17, 19, 0, 149, 0, 0, 352, 0]
+04-10 03:31:10.008  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88381957, 1.0)
+04-10 03:31:10.008  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:10.008  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.008  7877  9544 D EadLuxController: calculateAmbientLux(88381957, 10000)
+04-10 03:31:10.008  7877  9544 D EadLuxController: calculateAmbientLux(88381957, 10000)
+04-10 03:31:10.008  7877  9544 D EadLuxController: calculateAmbientLux(88381957, 2000)
+04-10 03:31:10.008  7877  9544 D EadLuxController: calculateAmbientLux(88381957, 2000)
+04-10 03:31:10.008  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88383957 nextDarkenTransition: 88383957 time: 88381957
+04-10 03:31:10.008  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838395788383957 (in 2000 ms)
+04-10 03:31:10.027 10309 10420 V SOH_SERVICE: Battery 0 : BattData { voltage:4.076, current:0.446093, soc:0.74, temperature:35.9, status:2, timestamp:1775809870024}
+04-10 03:31:10.081  2186  2274 E HeatmapThread: ECT Thread time in milliseconds: 1775809870
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ batteryplugType : 2
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ batteryLevel : 74  batteryTemperature : 359 
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ Heatmap currtime: 29596831
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ Heatmap prevtime: 29596804
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ Heatmap plugstarttime: 29596824
+04-10 03:31:10.083  2186  2274 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29596399
+04-10 03:31:10.084  2186  2274 E HeatmapThread: !@ CAM New BSOH: 100
+04-10 03:31:10.160  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:10.160  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:10.160  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.169  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382117, 1.0)
+04-10 03:31:10.169  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 1ms]
+04-10 03:31:10.169  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.169  7877  9544 D EadLuxController: calculateAmbientLux(88382117, 10000)
+04-10 03:31:10.169  7877  9544 D EadLuxController: calculateAmbientLux(88382117, 10000)
+04-10 03:31:10.169  7877  9544 D EadLuxController: calculateAmbientLux(88382117, 2000)
+04-10 03:31:10.169  7877  9544 D EadLuxController: calculateAmbientLux(88382117, 2000)
+04-10 03:31:10.169  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384117 nextDarkenTransition: 88384117 time: 88382117
+04-10 03:31:10.169  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838411788384117 (in 1999 ms)
+04-10 03:31:10.279  3027  4354 E WifiStaIfaceAidlImpl: getCachedScanData failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-10 03:31:10.282  3027  6913 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13008, isSameBssidAndFreq true
+04-10 03:31:10.284  3027  4458 I SemWifiLinkQualityMonitor: Link stat: 1671 / 7 / 1.24 (51) / 1200 / -59.0 || 100.0 : 1200.00 / 0.5 : 0.80 / 0.55 : 0.00 / G (G) || 0645699a6135: 0.079 / 101.305 / N || N N / 0 0 / N 2.0 / N X 0 / 88382231 0 || 2026-04-10 03:31:09  / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0
+04-10 03:31:10.285  3027  4459 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : N. Outage Triggered: false
+04-10 03:31:10.285  3027  4459 D SemInsManager: {"bssid": "0645699a6135","rssi": -59.0,"latency": 0.07896955128205127,"outage_count": 0,"lq_callback_triggered": false,"outage_log": "Link stat: 1671 / 7 / 1.24 (51) / 1200 / -59.0 || 100.0 : 1200.00 / 0.5 : 0.80 / 0.55 : 0.00 / G (G) || 0645699a6135: 0.079 / 101.305 / N || N N / 0 0 / N 2.0 / N X 0 / 88382231 0 || 2026-04-10 03:31:09  / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+04-10 03:31:10.286  3027  4476 D SGM:GameManager: identifyGamePackage. com.sovereignbridge, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+04-10 03:31:10.287  3027  4476 D SGM:SemGameManager: isGamePackage(), pkgName=com.sovereignbridge, ret=false
+04-10 03:31:10.328  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382277, 1.0)
+04-10 03:31:10.329  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 1ms]
+04-10 03:31:10.329  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.329  7877  9544 D EadLuxController: calculateAmbientLux(88382277, 10000)
+04-10 03:31:10.329  7877  9544 D EadLuxController: calculateAmbientLux(88382277, 10000)
+04-10 03:31:10.329  7877  9544 D EadLuxController: calculateAmbientLux(88382277, 2000)
+04-10 03:31:10.329  7877  9544 D EadLuxController: calculateAmbientLux(88382277, 2000)
+04-10 03:31:10.329  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384277 nextDarkenTransition: 88384277 time: 88382277
+04-10 03:31:10.329  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838427788384277 (in 1999 ms)
+04-10 03:31:10.361  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:10.361  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:10.361  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.404  5045  7053 I ContactCache: HANDLE_START_CONTACT_SYNC : 
+04-10 03:31:10.413  5045  7053 I ContactCache: getContactProviderStatus: 0
+04-10 03:31:10.413  5045  7053 I ContactCache: onStartContactSync : 
+04-10 03:31:10.414  5045  7053 I ContactCache: startContactSync: VZW_US
+04-10 03:31:10.416  5045  7064 I ContactCache<1>: startContactSync: start caching contacts.
+04-10 03:31:10.417  5045  7064 I ContactCache: slot[1]: refresh: mStartIndex 0
+04-10 03:31:10.418  5045  7064 E #IMSCR  : 04-10 03:31:10 0x12060000:1,REFR:0
+04-10 03:31:10.427  5045  7064 I ContactCache<1>: refresh: set mPrevRefreshTimeInMs = 1775808795624
+04-10 03:31:10.427  5045  7064 I ContactCache<1>: refresh: found 0 contacts. mLastRefreshTimeInMs = 1775809870427
+04-10 03:31:10.427  5045  7064 E #IMSCR  : 04-10 03:31:10 0x12060001:1,REFR:FOUND:0
+04-10 03:31:10.428  5045  7064 I ContactCache<1>: startContactSync: removed, check removed contacts.
+04-10 03:31:10.428  5045  7064 I ContactCache: processRemovedContact: Start.
+04-10 03:31:10.428  5045  7064 D CapabilityStorage<0>: getCapabilitiesNumberWithContactId
+04-10 03:31:10.430  5045  7064 D CapabilityStorage<0>: getCapabilitiesNumberWithContactId : 210 capabilities record.
+04-10 03:31:10.430  5045  7064 D CapabilityStorage<0>: getCapabilitiesNumberWithContactId done.
+04-10 03:31:10.430  5045  7064 D CapabilityStorage<1>: getCapabilitiesNumberWithContactId
+04-10 03:31:10.431  5045  7064 D CapabilityStorage<1>: getCapabilitiesNumberWithContactId : 211 capabilities record.
+04-10 03:31:10.431  5045  7064 D CapabilityStorage<1>: getCapabilitiesNumberWithContactId done.
+04-10 03:31:10.434  5045  7064 I ContactCache: getAllNumbersInContactDB: found 268 contacts.
+04-10 03:31:10.440  5045  7064 I ContactCache: processRemovedContact: start remove
+04-10 03:31:10.440  5045  7064 I ContactCache: processRemovedContact: Done. 0 numbers removed.
+04-10 03:31:10.440  5045  7064 I ContactCache<1>: startContactSync: Done. contact no found.
+04-10 03:31:10.487  1077  1077 D io_stats: !@   8,0 r 50825783 947687868 w 7422812 186463688 d 1025883 193132752 f 208082 643162 iot 3134880 0 th 0 0 0 pt 0 inp 0 0 88382.436
+04-10 03:31:10.488  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382437, 1.0)
+04-10 03:31:10.488  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:10.488  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.488  7877  9544 D EadLuxController: calculateAmbientLux(88382437, 10000)
+04-10 03:31:10.488  7877  9544 D EadLuxController: calculateAmbientLux(88382437, 10000)
+04-10 03:31:10.488  7877  9544 D EadLuxController: calculateAmbientLux(88382437, 2000)
+04-10 03:31:10.488  7877  9544 D EadLuxController: calculateAmbientLux(88382437, 2000)
+04-10 03:31:10.488  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384437 nextDarkenTransition: 88384437 time: 88382437
+04-10 03:31:10.488  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838443788384437 (in 2000 ms)
+04-10 03:31:10.562  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:10.562  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:10.562  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.631  8978 10549 I GearContacts_ObserverManager: onContactChanged
+04-10 03:31:10.638  8978 10549 I GearContacts_MessageHandlerCallbackImpl: sendFrequentlyContactedData
+04-10 03:31:10.640  8978 17032 I GearContacts_SaContactDbSyncManager: cache db sync begins
+04-10 03:31:10.648  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382597, 1.0)
+04-10 03:31:10.648  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:10.648  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.648  7877  9544 D EadLuxController: calculateAmbientLux(88382597, 10000)
+04-10 03:31:10.648  7877  9544 D EadLuxController: calculateAmbientLux(88382597, 10000)
+04-10 03:31:10.648  7877  9544 D EadLuxController: calculateAmbientLux(88382597, 2000)
+04-10 03:31:10.648  7877  9544 D EadLuxController: calculateAmbientLux(88382597, 2000)
+04-10 03:31:10.648  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384597 nextDarkenTransition: 88384597 time: 88382597
+04-10 03:31:10.648  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838459788384597 (in 2000 ms)
+04-10 03:31:10.650  8978 17032 I GearContacts_DataLayerUtil: node task await result:true
+04-10 03:31:10.650  8978 10549 I GearContacts_MessageHandlerCallbackImpl: sendCountryIsoData
+04-10 03:31:10.651  8978  8978 I GearContacts_DataLayerUtil: get node successfully!
+04-10 03:31:10.653  8978 10549 I GearContacts_CountryDetector: getNetworkBasedCountryIso : us
+04-10 03:31:10.653  8978 10549 I GearContacts_DataLayerUtil: sendMessage: contacts-countr
+04-10 03:31:10.653  8978 10549 I GearContacts_MessageHandlerCallbackImpl: sendRoamingStatus
+04-10 03:31:10.654  8978 10549 I GearContacts_SyncDataRoamingStatus: roamingStatus false, localRoamingStatus false
+04-10 03:31:10.654  8978  8978 I GearContacts_DataLayerUtil: get node successfully!
+04-10 03:31:10.658  8978  8978 I GearContacts_SyncDataCountryIso: send country iso data message success
+04-10 03:31:10.661  8978 10600 I GearContacts_ObserverManager: onProfileChanged
+04-10 03:31:10.663  4984  5458 I bt_btm_pm: system/stack/acl/btm_pm.cc:272 BTM_SetPowerMode: Setting power mode for peer:xx:xx:xx:xx:4a:e2 current_mode:immediate:sniff[2] new_mode:forced:active[0]
+04-10 03:31:10.663  4984  5458 I bt_btm_pm: system/stack/acl/btm_pm.cc:582 btm_pm_snd_md_req: Switching from immediate:sniff[0x02] to immediate:active[0x00]
+04-10 03:31:10.665  8978 17032 I GearContacts_SaContactDbManager: processInsert, size: 0
+04-10 03:31:10.665  8978 17032 I GearContacts_SaContactDbManager: processDelete, size: 0
+04-10 03:31:10.665  8978 17032 I GearContacts_SaContactDbManager: processUpdate, size: 0
+04-10 03:31:10.667  2112  2143 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:10.668  2112  2143 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-10 03:31:10.668  2112  2143 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+04-10 03:31:10.669  8978 17032 I GearContacts_SaContactDbSyncManager: cache db sync ends
+04-10 03:31:10.669  8978 17032 I GearContacts_SaContactDbSyncManager: cache db sync is completed
+04-10 03:31:10.672  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+04-10 03:31:10.672  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+04-10 03:31:10.672  2112  2143 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+04-10 03:31:10.674  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:10.674  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:10.685 10350 10373 W services:remote: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+04-10 03:31:10.722  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:10.752  3027  3150 D BatteryExternalStatsWorker: update stats : procstate-change (10)
+04-10 03:31:10.754  3027  3150 D BatteryExternalStatsWorker: Fetch WiFi data
+04-10 03:31:10.755  3027  3150 D BatteryExternalStatsWorker: Update Rail Energy data
+04-10 03:31:10.762  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:10.762  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:10.762  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.763  3027  4354 E WifiStaIfaceAidlImpl: getCachedScanData failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-10 03:31:10.763  3027  3150 D BatteryExternalStatsWorker: mStats lock released
+04-10 03:31:10.770  3027  3150 D BatteryExternalStatsWorker: Update wifi state
+04-10 03:31:10.770  3027  3150 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+04-10 03:31:10.807  3027  4493 D WifiConnectivityMonitor.NetworkStatsAnalyzer: Backhaul result - RSSI:-59, CE:26, PE:26, TI:34, PTI:32, TW:8, PTW:13, Tx:168, Rx:128, TxS:17, RxS:12, RESULT:true, IC:2, ICT:5, WC:1, WCT:5, R:1, RC:0, IE:0, EC:0
+04-10 03:31:10.808  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382757, 1.0)
+04-10 03:31:10.808  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:10.808  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.808  7877  9544 D EadLuxController: calculateAmbientLux(88382757, 10000)
+04-10 03:31:10.808  7877  9544 D EadLuxController: calculateAmbientLux(88382757, 10000)
+04-10 03:31:10.808  7877  9544 D EadLuxController: calculateAmbientLux(88382757, 2000)
+04-10 03:31:10.808  7877  9544 D EadLuxController: calculateAmbientLux(88382757, 2000)
+04-10 03:31:10.808  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384757 nextDarkenTransition: 88384757 time: 88382757
+04-10 03:31:10.808  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838475788384757 (in 2000 ms)
+04-10 03:31:10.834  2121  4628 I sensors-hal: handle_sns_client_event:202, auto_rotation_debug_2 mode,255, type,1,0 acc,-2.010,-0.325,9.672, ar,0, ver,14, pedo,1,e,1,i,3
+04-10 03:31:10.924  2112  6371 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+04-10 03:31:10.924  2112  6371 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:10.963  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:10.963  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:10.964  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:10.964  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:10.964  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:10.964  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:10.968  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88382917, 1.0)
+04-10 03:31:10.968  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:10.968  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:10.968  7877  9544 D EadLuxController: calculateAmbientLux(88382917, 10000)
+04-10 03:31:10.968  7877  9544 D EadLuxController: calculateAmbientLux(88382917, 10000)
+04-10 03:31:10.968  7877  9544 D EadLuxController: calculateAmbientLux(88382917, 2000)
+04-10 03:31:10.968  7877  9544 D EadLuxController: calculateAmbientLux(88382917, 2000)
+04-10 03:31:10.969  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88384917 nextDarkenTransition: 88384917 time: 88382917
+04-10 03:31:10.969  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838491788384917 (in 2000 ms)
+04-10 03:31:10.973  4984  6388 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:D2:69, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-54, periodicAdvInt=0x0
+04-10 03:31:10.979  4984  6388 I ScanController: onScanResult to scannerId: 3- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:4C:65, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-94, periodicAdvInt=0x0
+04-10 03:31:10.980  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:4C:65, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-94, periodicAdvInt=0x0
+04-10 03:31:10.981 14637 14693 D ScanFilter: manu data matches
+04-10 03:31:10.981 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:10.981 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:($)-S(11)|deviceType:UNKNOWN|discoverType:_BLE|services:None|connected:false[Type]6[Index]1[MNID]0AJK[SETUPID]101[TvStatusString]EXTENSION[TvStatus]32[TvService]103[TvMirrorChannel]0[TvRegisteredDB]null[TvYear]2024[TvOcfInfo]13[TvAcmStatus]0[ExTvStatus]2[ExtendedStatus]4[ModuloSn]20
+04-10 03:31:10.986  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x10, addressType=0, address=XX:XX:XX:XX:AB:83, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-90, periodicAdvInt=0x0
+04-10 03:31:10.988 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:10.989 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-88, 14, 0, 0, 0, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+04-10 03:31:11.025 10309 10420 V SOH_SERVICE: Battery 0 : BattData { voltage:4.076, current:0.349218, soc:0.74, temperature:35.9, status:2, timestamp:1775809871024}
+04-10 03:31:11.051  4984  5458 W bt_btm_pm: system/stack/acl/btm_pm.cc:729 btm_pm_proc_mode_change: Power mode switched from immediate:pending[5] to immediate:active[0]
+04-10 03:31:11.081  2186  2274 E HeatmapThread: ECT Thread time in milliseconds: 1775809871
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ batteryplugType : 2
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ batteryLevel : 74  batteryTemperature : 359 
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ Heatmap currtime: 29596831
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ Heatmap prevtime: 29596804
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ Heatmap plugstarttime: 29596824
+04-10 03:31:11.083  2186  2274 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29596399
+04-10 03:31:11.083  2186  2274 E HeatmapThread: !@ CAM New BSOH: 100
+04-10 03:31:11.088  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:11.088  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:11.128  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383077, 1.0)
+04-10 03:31:11.128  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:11.128  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.128  7877  9544 D EadLuxController: calculateAmbientLux(88383077, 10000)
+04-10 03:31:11.128  7877  9544 D EadLuxController: calculateAmbientLux(88383077, 10000)
+04-10 03:31:11.128  7877  9544 D EadLuxController: calculateAmbientLux(88383077, 2000)
+04-10 03:31:11.128  7877  9544 D EadLuxController: calculateAmbientLux(88383077, 2000)
+04-10 03:31:11.128  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385077 nextDarkenTransition: 88385077 time: 88383077
+04-10 03:31:11.128  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838507788385077 (in 2000 ms)
+04-10 03:31:11.139  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:11.139  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:11.139  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:11.146  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x10, addressType=0, address=XX:XX:XX:XX:AB:83, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-90, periodicAdvInt=0x0
+04-10 03:31:11.149 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:11.149 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-88, 14, 0, 0, 0, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+04-10 03:31:11.160  4984  6388 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:D2:69, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-54, periodicAdvInt=0x0
+04-10 03:31:11.163  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:11.163  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:11.164  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:11.199  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:11.199  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:11.288  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383237, 1.0)
+04-10 03:31:11.289  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:11.289  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.289  7877  9544 D EadLuxController: calculateAmbientLux(88383237, 10000)
+04-10 03:31:11.289  7877  9544 D EadLuxController: calculateAmbientLux(88383237, 10000)
+04-10 03:31:11.289  7877  9544 D EadLuxController: calculateAmbientLux(88383237, 2000)
+04-10 03:31:11.289  7877  9544 D EadLuxController: calculateAmbientLux(88383237, 2000)
+04-10 03:31:11.289  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385237 nextDarkenTransition: 88385237 time: 88383237
+04-10 03:31:11.289  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838523788385237 (in 1999 ms)
+04-10 03:31:11.349  2112  5467 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-10 03:31:11.363  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:11.363  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:11.364  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:11.430  2123  4545 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+04-10 03:31:11.430  4550  4550 I wpa_supplicant: nl80211: Vendor event: wiphy=0 vendor_id=0x1374 subcmd=10
+04-10 03:31:11.430  2802  4546 D LOWI-9.0.1.112.a: [LOWI-Scan] wait_event:Wait done with Cmd 103
+04-10 03:31:11.430  2653  2653 I cnss-daemon: nl80211 response handler invoked
+04-10 03:31:11.430  2653  2653 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+04-10 03:31:11.431  4550  4550 I wpa_supplicant: wlan0: CTRL-EVENT-AVOID-FREQ ranges=
+04-10 03:31:11.431  2802  4546 D LOWI-9.0.1.112.a: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+04-10 03:31:11.449  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383398, 1.0)
+04-10 03:31:11.449  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 79ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 0ms]
+04-10 03:31:11.449  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.449  7877  9544 D EadLuxController: calculateAmbientLux(88383398, 10000)
+04-10 03:31:11.449  7877  9544 D EadLuxController: calculateAmbientLux(88383398, 10000)
+04-10 03:31:11.449  7877  9544 D EadLuxController: calculateAmbientLux(88383398, 2000)
+04-10 03:31:11.449  7877  9544 D EadLuxController: calculateAmbientLux(88383398, 2000)
+04-10 03:31:11.449  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385398 nextDarkenTransition: 88385398 time: 88383398
+04-10 03:31:11.449  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838539888385398 (in 2000 ms)
+04-10 03:31:11.511  7849  7849 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-10 03:31:11.563  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:11.565  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:11.565  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:11.608  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383557, 1.0)
+04-10 03:31:11.608  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 0ms]
+04-10 03:31:11.608  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.608  7877  9544 D EadLuxController: calculateAmbientLux(88383557, 10000)
+04-10 03:31:11.608  7877  9544 D EadLuxController: calculateAmbientLux(88383557, 10000)
+04-10 03:31:11.608  7877  9544 D EadLuxController: calculateAmbientLux(88383557, 2000)
+04-10 03:31:11.608  7877  9544 D EadLuxController: calculateAmbientLux(88383557, 2000)
+04-10 03:31:11.609  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385557 nextDarkenTransition: 88385557 time: 88383557
+04-10 03:31:11.609  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838555788385557 (in 2000 ms)
+04-10 03:31:11.765  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:11.765  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:11.766  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:11.768  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383717, 1.0)
+04-10 03:31:11.769  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:11.769  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.769  7877  9544 D EadLuxController: calculateAmbientLux(88383717, 10000)
+04-10 03:31:11.769  7877  9544 D EadLuxController: calculateAmbientLux(88383717, 10000)
+04-10 03:31:11.769  7877  9544 D EadLuxController: calculateAmbientLux(88383717, 2000)
+04-10 03:31:11.769  7877  9544 D EadLuxController: calculateAmbientLux(88383717, 2000)
+04-10 03:31:11.769  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385717 nextDarkenTransition: 88385717 time: 88383717
+04-10 03:31:11.769  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838571788385717 (in 1999 ms)
+04-10 03:31:11.815  2121  6998 I sensors-hal: handle_sns_client_event:379, [0][4700768] accel_sample [-2.024, -0.310,  9.703] 193237266684058
+04-10 03:31:11.836 11313 11332 D ContactPeriodicBgService: [C] Job is already in pending
+04-10 03:31:11.839  3027  5251 I ActivityManager: Changes in 10123 19 to 8, 0 to 128
+04-10 03:31:11.840 11313 11332 I ContactMonitoringBgService: [C] Schedule succeeded
+04-10 03:31:11.841 11313 11329 I ContactMonitoringBgService: [C] cleaning restored duplicate is started
+04-10 03:31:11.847 11313 11329 D CleanRestoredContactModel: [C] updated contact ids : 72
+04-10 03:31:11.849 11313 11329 D CleanRestoredContactModel: [C] processed : 100 %
+04-10 03:31:11.876  3027  5251 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+04-10 03:31:11.876  3027  5251 D SecContentProvider2: isCopyContactToSimAllowed = true
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.877 11313 11329 I SimModel: [C] getSimType(0) : 2
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.877 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.877 11313 11329 I TelephonyDataSource: [C] simSlot1Name: SIM 1
+04-10 03:31:11.877 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim_db_ready
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.880  3027  8019 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.880  3027  8019 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.880  3027  8019 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.880  3027  8019 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.880 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(0) : -1
+04-10 03:31:11.880 11313 11329 I SimInfoModel: [C] isSimActivatedEnabled(0) return true : max = -1 EmailDbSupported :false
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.880 11313 11329 I SimModel: [C] getSimType(0) : 2
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.880 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.880 11313 11329 I TelephonyDataSource: [C] simSlot1Name: SIM 1
+04-10 03:31:11.880 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim_db_ready
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.882  3027  5159 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.882  3027  5159 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.882  3027  5159 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.882  3027  5159 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.882 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.882 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(0) : -1
+04-10 03:31:11.882 11313 11329 I SimInfoModel: [C] isSimActivatedEnabled(0) return true : max = -1 EmailDbSupported :false
+04-10 03:31:11.882 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.882 11313 11329 I SimModel: [C] getSimType(0) : 2
+04-10 03:31:11.882 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.882 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.882 11313 11329 I TelephonyDataSource: [C] simSlot1Name: SIM 1
+04-10 03:31:11.882 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.883  3027  8019 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim_db_ready
+04-10 03:31:11.883  3027  8019 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.883  3027  8019 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.883  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.883  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.883  3027  8019 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.883  3027  8019 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.884  3027  8019 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.884  3027  8019 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.884 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.884 11313 11329 I EsimUtil: [C] esimState MEP : this is esim , slot = 0
+04-10 03:31:11.884 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.884 11313 11329 I SimModel: [C] getSimType(0) : 2
+04-10 03:31:11.884 11313 11329 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+04-10 03:31:11.884 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.884 11313 11329 I TelephonyDataSource: [C] simSlot1Name: SIM 1
+04-10 03:31:11.884 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim_db_ready
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.885  3027  8019 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.885  3027  8019 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.885  3027  8019 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.885  3027  8019 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.885 11313 11329 I TelephonyDataSource: [C] getSimState(0) : 5
+04-10 03:31:11.886 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(0) : -1
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.886 11313 11329 I EsimUtil: [C] esimState MEP : this is esim , slot = 1
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.886 11313 11329 I SimModel: [C] getSimType(1) : 2
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.886 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.886 11313 11329 I TelephonyDataSource: [C] simSlot2Name : eSIM 1
+04-10 03:31:11.886 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim2_db_ready
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.888  3027  8019 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.888  3027  8019 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.888  3027  8019 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.888  3027  8019 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.888 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.888 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(1) : -1
+04-10 03:31:11.888 11313 11329 I SimInfoModel: [C] isSimActivatedEnabled(1) return true : max = -1 EmailDbSupported :false
+04-10 03:31:11.888 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.888 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.889 11313 11329 I EsimUtil: [C] esimState MEP : this is esim , slot = 1
+04-10 03:31:11.889 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.889 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.889 11313 11329 I SimModel: [C] getSimType(1) : 2
+04-10 03:31:11.889 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.889 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.889 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.889 11313 11329 I TelephonyDataSource: [C] simSlot2Name : eSIM 1
+04-10 03:31:11.889 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim2_db_ready
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.891  3027  5251 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.891  3027  5251 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.891  3027  5251 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.891  3027  5251 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.891 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.891 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(1) : -1
+04-10 03:31:11.891 11313 11329 I SimInfoModel: [C] isSimActivatedEnabled(1) return true : max = -1 EmailDbSupported :false
+04-10 03:31:11.891 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.891 11313 11329 I SimModel: [C] getSimType(1) : 2
+04-10 03:31:11.891 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.891 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.891 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.891 11313 11329 I TelephonyDataSource: [C] simSlot2Name : eSIM 1
+04-10 03:31:11.891 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim2_db_ready
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.893  3027  5251 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.893  3027  5251 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.893  3027  5251 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.893  3027  5251 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.893 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.893 11313 11329 I EsimUtil: [C] esimState MEP : this is esim , slot = 1
+04-10 03:31:11.893 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.893 11313 11329 I SimModel: [C] getSimType(1) : 2
+04-10 03:31:11.893 11313 11329 I TelephonyDataSource: [C] isMultiSimModel multiSimConfig : dsds
+04-10 03:31:11.893 11313 11329 I TelephonyDataSource: [C] slotId : 1CSim value : 0
+04-10 03:31:11.893 11313 11329 I SimInfoModel: [C] getAnrConfigValueIncludingTSS20() salesCode : CHA
+04-10 03:31:11.893 11313 11329 I TelephonyDataSource: [C] simSlot2Name : eSIM 1
+04-10 03:31:11.893 11313 11329 I SimInfoDataSource: [C] Create IccPhonebookManager instance and fill capa to array
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = sim2_db_ready
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: false
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: selectionArgs: 10123
+04-10 03:31:11.895  3027  5251 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+04-10 03:31:11.895  3027  5251 D SecContentProvider: called from com.samsung.android.app.contacts
+04-10 03:31:11.895  3027  5251 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+04-10 03:31:11.895  3027  5251 D KNOX_MDM_SettingsProvider: ret = 1
+04-10 03:31:11.895 11313 11329 I TelephonyDataSource: [C] getSimState(1) : 5
+04-10 03:31:11.895 11313 11329 I SimInfoModel: [C] getMaxSimDbCount(1) : -1
+04-10 03:31:11.895 11313 11329 I AccountTypeModel: [C] exclude:true |SIM1:unready
+04-10 03:31:11.912 11313 11439 D ProfileInstaller: Skipping profile installation for com.samsung.android.app.contacts
+04-10 03:31:11.928  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88383877, 1.0)
+04-10 03:31:11.928  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:11.928  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:11.928  7877  9544 D EadLuxController: calculateAmbientLux(88383877, 10000)
+04-10 03:31:11.928  7877  9544 D EadLuxController: calculateAmbientLux(88383877, 10000)
+04-10 03:31:11.928  7877  9544 D EadLuxController: calculateAmbientLux(88383877, 2000)
+04-10 03:31:11.928  7877  9544 D EadLuxController: calculateAmbientLux(88383877, 2000)
+04-10 03:31:11.928  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88385877 nextDarkenTransition: 88385877 time: 88383877
+04-10 03:31:11.928  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838587788385877 (in 2000 ms)
+04-10 03:31:11.961 11313 11329 I ContactMonitoringBgService: [C] cleaning restored duplicate takes 120
+04-10 03:31:11.961 11313 11329 I ContactMonitoringBgService: [C] cleaning restored duplicate is completed
+04-10 03:31:11.962  3027  5251 I ActivityManager: Changes in 10123 8 to 10, 128 to 0
+04-10 03:31:11.963 11313 11345 I ContactMonitoringBgService: [C] Schedule succeeded
+04-10 03:31:11.965  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:11.965  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:11.965  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:11.974 11313 11317 W id.app.contacts: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+04-10 03:31:11.975  3027  4457 I SemWifiIntelligentTrainingManager: Tr. cond. check: true / 1 (2) / true / 1 (1)
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+04-10 03:31:11.975  3027  4457 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+04-10 03:31:12.026 10309 10420 V SOH_SERVICE: Battery 0 : BattData { voltage:4.076, current:0.310937, soc:0.74, temperature:35.9, status:2, timestamp:1775809872023}
+04-10 03:31:12.081  2186  2274 E HeatmapThread: ECT Thread time in milliseconds: 1775809872
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ batteryplugType : 2
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ batteryLevel : 74  batteryTemperature : 359 
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ Heatmap currtime: 29596831
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ Heatmap prevtime: 29596804
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ Heatmap plugstarttime: 29596824
+04-10 03:31:12.083  2186  2274 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29596399
+04-10 03:31:12.083  2186  2274 E HeatmapThread: !@ CAM New BSOH: 100
+04-10 03:31:12.084  3027  4460 I SemWifiCtlFeatureMediator: Trf ratio: 0.0% (0.02 / 575.67) v ( NR) || Query: BW false (false) 1.0 1.0 1.0 / NSS true (false) 1.0 1.0 1.0 
+04-10 03:31:12.088  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384037, 1.0)
+04-10 03:31:12.088  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:12.088  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.088  7877  9544 D EadLuxController: calculateAmbientLux(88384037, 10000)
+04-10 03:31:12.088  7877  9544 D EadLuxController: calculateAmbientLux(88384037, 10000)
+04-10 03:31:12.088  7877  9544 D EadLuxController: calculateAmbientLux(88384037, 2000)
+04-10 03:31:12.088  7877  9544 D EadLuxController: calculateAmbientLux(88384037, 2000)
+04-10 03:31:12.088  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386037 nextDarkenTransition: 88386037 time: 88384037
+04-10 03:31:12.088  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838603788386037 (in 2000 ms)
+04-10 03:31:12.126  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:12.126  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:12.126  2112  6363 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-10 03:31:12.126  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:12.133  4984  5458 W bt_btm_pm: system/stack/acl/btm_pm.cc:729 btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+04-10 03:31:12.165  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:12.166  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:12.166  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:12.175  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:12.175  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:12.248  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384197, 1.0)
+04-10 03:31:12.249  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:12.249  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.249  7877  9544 D EadLuxController: calculateAmbientLux(88384197, 10000)
+04-10 03:31:12.249  7877  9544 D EadLuxController: calculateAmbientLux(88384197, 10000)
+04-10 03:31:12.249  7877  9544 D EadLuxController: calculateAmbientLux(88384197, 2000)
+04-10 03:31:12.249  7877  9544 D EadLuxController: calculateAmbientLux(88384197, 2000)
+04-10 03:31:12.249  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386197 nextDarkenTransition: 88386197 time: 88384197
+04-10 03:31:12.249  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838619788386197 (in 1999 ms)
+04-10 03:31:12.325  2112  5467 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-10 03:31:12.365  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:12.366  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:12.366  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:12.389  2555  2555 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+04-10 03:31:12.390  2020  2020 D Zygote  : Forked child process 11440
+04-10 03:31:12.390  3027  3137 I ActivityManager: Start proc 11440:com.samsung.android.mobileservice/u0a124 for service {com.samsung.android.mobileservice/com.samsung.android.mobileservice.social.buddy.account.presentation.service.ContactObserverService}
+04-10 03:31:12.390  3027  3137 I ActivityManager: ProcessObserver broadcast disabled
+04-10 03:31:12.408  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384357, 1.0)
+04-10 03:31:12.408  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:12.408  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.408  7877  9544 D EadLuxController: calculateAmbientLux(88384357, 10000)
+04-10 03:31:12.408  7877  9544 D EadLuxController: calculateAmbientLux(88384357, 10000)
+04-10 03:31:12.408  7877  9544 D EadLuxController: calculateAmbientLux(88384357, 2000)
+04-10 03:31:12.408  7877  9544 D EadLuxController: calculateAmbientLux(88384357, 2000)
+04-10 03:31:12.408  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386357 nextDarkenTransition: 88386357 time: 88384357
+04-10 03:31:12.408  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838635788386357 (in 2000 ms)
+04-10 03:31:12.408 11440 11440 I d.mobileservice: Using CollectorTypeCMC GC.
+04-10 03:31:12.412 11440 11440 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-10 03:31:12.413 11440 11440 D ActivityThread: setConscryptValidator
+04-10 03:31:12.414 11440 11440 D ActivityThread: setConscryptValidator - put
+04-10 03:31:12.418  7033  7077 V OsAgent : broadcastSystemEvent - 7
+04-10 03:31:12.421 11440 11440 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+04-10 03:31:12.421 11440 11440 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-10 03:31:12.428 11440 11440 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~xVfRrGm0-wweNz8gBHWS5w==/com.samsung.android.mobileservice-RZ6UXMeglCTLT7odg4_25w==/lib/arm64:/data/app/~~xVfRrGm0-wweNz8gBHWS5w==/com.samsung.android.mobileservice-RZ6UXMeglCTLT7odg4_25w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.samsung.android.mobileservice
+04-10 03:31:12.428 11440 11440 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libAIDeflicker.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtfl
+04-10 03:31:12.429 11440 11440 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+04-10 03:31:12.429 11440 11440 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+04-10 03:31:12.440 11440 11440 D nativeloader: Configuring clns-10 for other apk /data/app/~~xVfRrGm0-wweNz8gBHWS5w==/com.samsung.android.mobileservice-RZ6UXMeglCTLT7odg4_25w==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~xVfRrGm0-wweNz8gBHWS5w==/com.samsung.android.mobileservice-RZ6UXMeglCTLT7odg4_25w==/lib/arm64:/data/app/~~xVfRrGm0-wweNz8gBHWS5w==/com.samsung.android.mobileservice-RZ6UXMeglCTLT7odg4_25w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.samsung.android.mobileservice
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment: Currently set values for:
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment: com.samsung.android.mobileservice is not listed in per-application setting
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment: ANGLE allowlist from config: 
+04-10 03:31:12.451 11440 11440 V GraphicsEnvironment: com.samsung.android.mobileservice is not listed in ANGLE allowlist or settings, returning default
+04-10 03:31:12.472 11440 11440 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+04-10 03:31:12.476 11440 11455 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-10 03:31:12.477 11440 11440 I FirebaseInitProvider: FirebaseApp initialization successful
+04-10 03:31:12.478 11440 11440 D DIAGMON_SDK[605079]: setDeviceId : 
+04-10 03:31:12.479 11440 11440 E SEMS:Social_13.8.52: [GLog][main][GroupDBHelper] Instance null
+04-10 03:31:12.484 11440 11440 I SEMS:Social_13.8.52: [DataSyncLog][main][DataSyncProvider] onCreate
+04-10 03:31:12.487  1077  1077 D io_stats: !@   8,0 r 50826725 947716804 w 7422830 186464064 d 1025883 193132752 f 208084 643164 iot 3135024 0 th 0 0 0 pt 0 inp 0 1 88384.436
+04-10 03:31:12.487  1077  1077 D io_stats: !@ Read_top(KB): .gms.persistent:high(8324) 20024 d.mobileservice:high(11440) 14984 le.watch7plugin:high(8978) 7128
+04-10 03:31:12.487  1077  1077 D io_stats: !@ Write_top(KB): kworker/u17:4:/(31680) 2912 .android.chrome:low(10312) 320 rum.cm.headless:high(17434) 52
+04-10 03:31:12.488 11440 11440 I SEMS:Social_13.8.52: [BLog][main][BuddyProvider] onCreate
+04-10 03:31:12.495 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][MobileServiceContactHash] registerDeviceApi
+04-10 03:31:12.495 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][MobileServiceContactHash] registerDeviceApi complete
+04-10 03:31:12.497 11440 11440 I SEMS:DataAdapter_13.8.52: [][main][ServerInterface] isEnforceStgServer:false
+04-10 03:31:12.498 11440 11440 I SEMS:AgentLog_13.8.52: [][main][MobileServiceApplication] onCreate
+04-10 03:31:12.498 11440 11440 I DIAGMON_SDK[605079]: DiagMonAgent type: 2
+04-10 03:31:12.498 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : setConfiguration type : DEFAULT
+04-10 03:31:12.498 11440 11440 I DIAGMON_SDK[605079][sebzp6l7wd] : generated SR object
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : Diagmon Logger Init
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : CRASH_LOG_PATH : /data/user/0/com.samsung.android.mobileservice/exception/diagmon.log
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : EVENT_LOG_PATH : /data/user/0/com.samsung.android.mobileservice/exception/diagmon_event.log
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : THREAD_STACK_LOG_PATH : /data/user/0/com.samsung.android.mobileservice/exception/diagmon_thread.log
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : MEMORY_LOG_PATH : /data/user/0/com.samsung.android.mobileservice/exception/diagmon_memory.log
+04-10 03:31:12.499 11440 11440 D DIAGMON_SDK[605079][sebzp6l7wd] : STORAGE_LOG_PATH : /data/user/0/com.samsung.android.mobileservice/exception/diagmon_storage.log
+04-10 03:31:12.500 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][MobileServiceCommon] init
+04-10 03:31:12.500 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][SALogger] Init SamsungAnalytics Start
+04-10 03:31:12.500 11440 11440 I SamsungAnalytics605079: Tracker start:6.05.079
+04-10 03:31:12.501 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][SALogger] Init SamsungAnalytics Completed
+04-10 03:31:12.501 11440 11440 I SEMS:DataAdapter_13.8.52: [][main][MobileServiceDataAdapter] init
+04-10 03:31:12.501 11440 11440 I SEMS:DataAdapter_13.8.52: [][main][ServerInterface] isEnforceStgServer:false
+04-10 03:31:12.501 11440 11465 D SamsungAnalytics605079: do not send setting < 1day
+04-10 03:31:12.501 11440 11440 I SEMS:SupportedService_13.8.52: [][main][MobileServiceSupportedService] init
+04-10 03:31:12.501 11440 11440 I SEMS:SupportedService_13.8.52: [][main][MobileServiceState] init
+04-10 03:31:12.501 11440 11440 I SEMS:SupportedService_13.8.52: [][main][MobileServiceState] registerServiceState done
+04-10 03:31:12.501 11440 11465 D SamsungAnalytics605079: [PropertyLogBuildClient] No Property log
+04-10 03:31:12.501 11440 11465 I SamsungAnalytics605079: register setting status
+04-10 03:31:12.501 11440 11465 D SamsungAnalytics605079: do not send setting < 1day
+04-10 03:31:12.502 11440 11440 I SEMS:SupportedService_13.8.52: [][main][ServerDomainPolicy] updateServerDomain
+04-10 03:31:12.502 11440 11440 I SEMS:SupportedService_13.8.52: [][main][SettingPolicy] loadSetting
+04-10 03:31:12.502 11440 11440 I SEMS:Registration_13.8.52: [AgreementLog][main][MobileServiceAgreement] init.
+04-10 03:31:12.503 11440 11440 I SEMS:Registration_13.8.52: [AuthLog][main][ServiceNumber] init
+04-10 03:31:12.503 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][MobileServiceAgreement] cancelTermsCheckJobService
+04-10 03:31:12.503 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][MobileServiceAgreement] cancelTermsCheckJobService completed
+04-10 03:31:12.503 11440 11468 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-2][ServerDomainPolicy] updateServerInterface: SocialServerDomainAddress  empty server domain
+04-10 03:31:12.503 11440 11468 I SEMS:DataAdapter_13.8.52: [][RxCachedThreadScheduler-2][NetworkManager] removeAllSsfClient
+04-10 03:31:12.503 11440 11468 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-2][ServerDomainPolicy] updateServerInterface: ConsentServerDomainAddress  empty server domain
+04-10 03:31:12.503 11440 11470 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-3][SettingPolicy] updateSettingValues: {CalendarCleanDuplicateInterval=null}
+04-10 03:31:12.503 11440 11470 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-3][SettingPolicy] updateSettingValues: Setting {CalendarCleanDuplicateInterval=null}
+04-10 03:31:12.503 11440 11470 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-3][MobileServiceSupportedService] load success
+04-10 03:31:12.525  1134  1134 W keymint_tee: [WRN]begin req PARAMS: A32, BM2, PD64, 
+04-10 03:31:12.527  1134  1134 D keymint_swd: keymint_swd keymint [WRN] (km_add_tag:528) skip: non repetable tag already exists with different value: 268435458
+04-10 03:31:12.527  1134  1134 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_begin() returns 0
+04-10 03:31:12.528  1134  1134 D android.hardware.security.keymint-service: begin: ret 0
+04-10 03:31:12.529  1119  1189 I keystore2: system/security/keystore2/src/security_level.rs:466 - In create_operation. Success to create IKeystoreOperation. 10124, None
+04-10 03:31:12.530  1134  1134 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_update() returns 0
+04-10 03:31:12.530  1134  1134 D android.hardware.security.keymint-service: update: ret 0
+04-10 03:31:12.530  1134  1134 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_finish() returns 0
+04-10 03:31:12.530  1134  1134 D android.hardware.security.keymint-service: finish: ret 0
+04-10 03:31:12.531 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][BaseSamsungAccountService] guid : lpΓûáΓûáΓûáΓûáΓûáixΓûá, at : CgΓûáΓûáΓûáΓûáΓûásyΓûá, issuedTime : 1775268900722
+04-10 03:31:12.531 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] Instance created
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] registerTokenCallback
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [AuthLog][main][ServiceNumber] VERSION : 13.8.52.5
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [AgreementLog][main][MobileServiceAgreement] lateInit
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [AgreementLog][main][AgreementPao] getPreference : key = force_reagree_for_korea_model / defaultValue = true / ret = false
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [ActivateLog][main][MobileServiceActivate] lateInit
+04-10 03:31:12.532 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][NumberUtils] getIso3CCFromMCC : mcc = 311 / countryCode = USA
+04-10 03:31:12.532 11440 11467 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-1][MobileServiceSocialPolicy] MobileServiceSocialPolicy created
+04-10 03:31:12.532 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][LocalBroadcastUtil] register
+04-10 03:31:12.532 11440 11440 I SEMS:Registration_13.8.52: [ActivateLog][main][SocialActivateAccountBasedImpl] In reactivation check time, don't request reactivation
+04-10 03:31:12.534 11440 11472 E SEMS:Social_13.8.52: [BLog][RxComputationThreadPool-1][ConditionRepositoryImpl] checkLegacy error
+04-10 03:31:12.534 11440 11440 I SEMS:Social_13.8.52: [SLog][main][DateTakenMigrationTask] start checkAndRequestMigration : true
+04-10 03:31:12.535 11440 11440 I SEMS:Social_13.8.52: [SLog][main][LastModifierMigrationTask] start checkAndRequestMigration : true
+04-10 03:31:12.535 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][MobileServiceContactHash] initForSep
+04-10 03:31:12.535 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][ContactHashObserverService] scheduleJob
+04-10 03:31:12.535 11440 11472 I SEMS:Social_13.8.52: [BLog][RxComputationThreadPool-1][WorkerSourceImpl] schedule success
+04-10 03:31:12.536 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][ContactHashObserverService] schedule result: true
+04-10 03:31:12.537 11440 11472 I SEMS:Social_13.8.52: [BLog][RxComputationThreadPool-1][MyProfileObserverService] schedule success
+04-10 03:31:12.537 11440 11472 I SEMS:Registration_13.8.52: [PushLog][RxComputationThreadPool-1][SmpManager] registerMessageCallback - 9
+04-10 03:31:12.537 11440 11472 I Policy_13.0.02: [RxComputationThreadPool-1][GetServicePolicyUseCase] getServicePolicy
+04-10 03:31:12.537 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][PreferenceSourceImpl] getContactLastUpdatedTime: 1775757537694
+04-10 03:31:12.537 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][MobileServiceContactHash] enqueueUpdateContactHashWorkerOnlyFirst complete
+04-10 03:31:12.537 11440 11440 I SEMS:Social_13.8.52: [SAFLog][main][MobileServiceSAFamily] init.
+04-10 03:31:12.537 11440 11440 I SEMS:Social_13.8.52: [CapabilityLog][main][MobileServiceCapabilityImpl] init.
+04-10 03:31:12.537 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][PeriodicJobUtil] scheduleJob
+04-10 03:31:12.537 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][PeriodicJobUtil] job service was already scheduled : 21600000
+04-10 03:31:12.538 11440 11440 I SEMS:Social_13.8.52: [][main][MobileServiceSocialApplication] init start
+04-10 03:31:12.538 11440 11468 I Policy_13.0.02: [RxCachedThreadScheduler-2][MobileServicePolicy] scheduleJob success : 86400000
+04-10 03:31:12.538 11440 11468 D Policy_13.0.02: [RxCachedThreadScheduler-2][GetPolicyJobService] try to register policy polling job schedule period:86400000
+04-10 03:31:12.538 11440 11468 I Policy_13.0.02: [RxCachedThreadScheduler-2][GetPolicyJobService] polling job service was already scheduled (from:86400000 to:86400000)
+04-10 03:31:12.538 11440 11468 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-2][MobileServiceSupportedService] MobileServiceSocialPolicy init completed
+04-10 03:31:12.538 11440 11470 I SEMS:Social_13.8.52: [BLog][RxCachedThreadScheduler-3][WorkerSourceImpl] enqueuePeriodWorkers. hours: 24, replace: false
+04-10 03:31:12.538 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] registerMessageCallback - 7
+04-10 03:31:12.538 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] registerMessageCallback - 8
+04-10 03:31:12.538 11440 11440 I SEMS:Social_13.8.52: [SLog][main][ShareCommonAPI] init
+04-10 03:31:12.538  3027  5159 D PackageManager: setEnabledSetting : userId = 0 packageName = com.samsung.android.mobileservice cmp = androidx.work.impl.background.systemjob.SystemJobService newState = 1 callingPackage = com.samsung.android.mobileservice
+04-10 03:31:12.538  3027  5159 D ApplicationPolicy: getApplicationStateEnabled : pkg = com.samsung.android.mobileservice userId : 0
+04-10 03:31:12.539  3027  5159 D ApplicationPolicy: getApplicationComponentState : pkg = com.samsung.android.mobileservice userId : 0
+04-10 03:31:12.540 11440 11470 I SEMS:Social_13.8.52: [BLog][RxCachedThreadScheduler-3][AccountBuddy] AccountBuddy init success
+04-10 03:31:12.540 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] registerMessageCallback - 12
+04-10 03:31:12.540 11440 11440 I SEMS:Registration_13.8.52: [PushLog][main][SmpManager] registerMessageCallback - 999
+04-10 03:31:12.540 11440 11440 I SEMS:Social_13.8.52: [CLog][main][ObserverJobService] scheduled: true
+04-10 03:31:12.540 11440 11440 I SEMS:Social_13.8.52: [CLog][main][RecoveryJobService] scheduleJob
+04-10 03:31:12.541 11440 11440 I SEMS:Social_13.8.52: [CLog][main][RecoveryJobService] scheduled: true
+04-10 03:31:12.541 11440 11440 I SEMS:Social_13.8.52: [CLog][main][PeriodJobService] scheduleJob
+04-10 03:31:12.541 11440 11440 I SEMS:Common_13.8.52: [CommonLog][main][PeriodicJobUtil] registerJob : DeleteDuplicate
+04-10 03:31:12.541 11440 11467 I Policy_13.0.02: [RxCachedThreadScheduler-1][GetServicePolicyUseCase] getServicePolicy
+04-10 03:31:12.541 11440 11440 I SEMS:Social_13.8.52: [GLog][main][InvitationLinkAppPolicy] start loadFromPolicy policy
+04-10 03:31:12.541 11440 11440 I Policy_13.0.02: [main][GetServicePolicyUseCase] getServicePolicy
+04-10 03:31:12.542 11440 11440 I SEMS:Social_13.8.52: [][main][MobileServiceSocialApplication] init end
+04-10 03:31:12.542 11440 11468 I Policy_13.0.02: [RxCachedThreadScheduler-2][MobileServicePolicy] getServicePolicy with serviceName success
+04-10 03:31:12.542 11440 11440 I SEMS:GroupUi: [GroupUi][main] [MobileServiceGroupUiApplication] init application
+04-10 03:31:12.542 11440 11440 I Policy_13.0.02: [main][GetServicePolicyUseCase] getServicePolicy
+04-10 03:31:12.542 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][CommonPref] getBoolean - key : sa_reagree_state , value : false
+04-10 03:31:12.543 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][SamsungCloudUtil] setup
+04-10 03:31:12.543 11440 11467 I [SCSPSDK][Scsp]: setUp
+04-10 03:31:12.543 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][SamsungCloudUtil] setup done
+04-10 03:31:12.543 11440 11467 I SEMS:AgentLog_13.8.52: [][RxCachedThreadScheduler-1][MobileServiceApplication] SamsungCloud init result : true
+04-10 03:31:12.543 11440 11467 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-1][CommonPref] getBoolean - key : sa_reagree_state , value : false
+04-10 03:31:12.543 11440 11468 I Policy_13.0.02: [RxCachedThreadScheduler-2][MobileServicePolicy] getServicePolicy success
+04-10 03:31:12.543 11440 11467 I SEMS:Registration_13.8.52: [PushLog][RxCachedThreadScheduler-1][SmpManager] init: request
+04-10 03:31:12.543 11440 11467 I SmpLog  : [SMP] init. D:false O:DEVICE_BASED S:true M:false P:FCM_PRIMARY_MODE A:a
+04-10 03:31:12.544 11440 11467 I SEMS:AgentLog_13.8.52: [][RxCachedThreadScheduler-1][MobileServiceApplication] SmpManager.init completed
+04-10 03:31:12.544 11440 11467 I SEMS:AgentLog_13.8.52: [][RxCachedThreadScheduler-1][MobileServiceApplication] SamsungCloud, SmpManager init completed
+04-10 03:31:12.544  3027  8019 I ActivityManager: Changes in 10124 19 to 8, 0 to 128
+04-10 03:31:12.544 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfile enter
+04-10 03:31:12.545 11440 11477 I SmpLog  : [SMP] Test mode: false, v:3.3.11.2, com.samsung.android.mobileservice
+04-10 03:31:12.545 11440 11477 I SmpLog  : [SMP] ptype:fcm, token:...5-5vA (142), D:false, O:DEVICE_BASED, S:false, M:false, P:FCM_PRIMARY_MODE
+04-10 03:31:12.546 11440 11477 I SmpLog  : [SMP] SEND BR : smp init success
+04-10 03:31:12.546  3027  3027 W JobScheduler: Job didn't exist in JobStore: ad6add8 #u0a124/876543 com.samsung.android.mobileservice/.social.buddy.account.presentation.service.ContactObserverService
+04-10 03:31:12.546  3027  3136 I ActivityManager: Test idle passed
+04-10 03:31:12.547 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfileData enter
+04-10 03:31:12.547 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][ContactHashObserverService] onStartJob
+04-10 03:31:12.547 11440 11440 I SEMS:LocalContact_13.0.02: [ContactLog][main][LocalContactApiSourceImpl] isGetAccountPermissionsNeeded: false
+04-10 03:31:12.547 11440 11440 I SEMS:Social_13.8.52: [CLog][main][RecoveryJobService] onStartJob
+04-10 03:31:12.547 11440 11470 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-3][ConditionSourceImpl] android.permission.READ_CONTACTS isGranted: true
+04-10 03:31:12.548 11440 11470 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-3][ConditionSourceImpl] android.permission.GET_ACCOUNTS isGranted: true
+04-10 03:31:12.548 11440 11467 I SEMS:Common_13.8.52: [CommonUILog][RxCachedThreadScheduler-1][PermissionManager] requestPermissionSocial CALENDAR deniedPermissions : [] runPermissionActivity : false
+04-10 03:31:12.548 11440 11467 I SEMS:Common_13.8.52: [CommonUILog][RxCachedThreadScheduler-1][PermissionManager] requestPermissionSocial return true
+04-10 03:31:12.548 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][MobileServiceAgreement] isAgreementProcedureNeeded
+04-10 03:31:12.548 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][AgreementPao] getForceUpdateNeeded : needed = false
+04-10 03:31:12.548 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepBuilder] isForceUpdateStepPassed : passed
+04-10 03:31:12.548 11440 11470 I Policy_13.0.02: [RxCachedThreadScheduler-3][GetServicePolicyUseCase] getServicePolicy
+04-10 03:31:12.548 11440 11467 I SEMS:Social_13.8.52: [CLog][RxCachedThreadScheduler-1][PreferenceDataRepository] getRecoveryVersion: 5, default: 0
+04-10 03:31:12.548 11440 11482 I Policy_13.0.02: [RxCachedThreadScheduler-4][MobileServicePolicy] getServicePolicy success
+04-10 03:31:12.548 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepBuilder] isNoticeStepPassed = true / socialServiceState = SERVICE_NORMAL
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepBuilder] isSALogInStepPassed = true
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][AgreementStepBuilder] isRequestSaAccessTokenStepPassed = true
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepBuilder] isSALogInStepPassed = true
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepBuilder] isInformationSecurityStepPassed : ret = true
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][ForegroundStepManager] [IMPORTANT] isAgreementProcedureNeeded = false
+04-10 03:31:12.549 11440 11470 I SEMS:Registration_13.8.52: [AgreementLog][RxCachedThreadScheduler-3][AgreementPao] getPreference : key = is_data_deletion_only / defaultValue = false / ret = false
+04-10 03:31:12.549 11440 11470 I SEMS:Common_13.8.52: [CommonLog][RxCachedThreadScheduler-3][ClientAuthenticationUtils] start caching
+04-10 03:31:12.551 11440 11467 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-1][PreferenceSourceImpl] getContactLastUpdatedTime: 1775757537694
+04-10 03:31:12.556 11440 11470 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-3][ContactSourceImpl] getContactDataCursor: 0
+04-10 03:31:12.560  4550  4550 I wpa_supplicant: Heartbeat 14806
+04-10 03:31:12.561 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactSourceImpl] getAllContactIdCursor: 282
+04-10 03:31:12.562 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfileData exit : true
+04-10 03:31:12.562 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfileInterval enter
+04-10 03:31:12.562 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfileInterval exit : true
+04-10 03:31:12.563 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: deleteProfile exit : true
+04-10 03:31:12.563 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList - profile : C6.e@f80dc9c
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList - profile : C6.e@9bda6a5
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList - profile : C6.e@7246a7a
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList - profile : C6.e@74eb22b
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList - profile : C6.e@f0d2688
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileInterval exit
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData enter
+04-10 03:31:12.564 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileData exit
+04-10 03:31:12.566 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactHashDao] contactIdSet: 282, contactIdSetInLocal: 282
+04-10 03:31:12.566 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactHashDao] syncRemovedContact: 0
+04-10 03:31:12.566 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactHashObserverService] onStartJob complete
+04-10 03:31:12.566 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactHashObserverService] scheduleJob
+04-10 03:31:12.566  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:12.566  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:12.566  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:12.567  9445  9467 W FuseDaemon: Reducing the number of considered missed Gc histogram windows from 537 to 100
+04-10 03:31:12.567  3027  5159 I ActivityManager: Changes in 10124 8 to 10, 128 to 0
+04-10 03:31:12.568  2121 31726 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 193238047478746 ns; value = [1, 1, 17, 19, 0, 149, 0, 0, 352, 0]
+04-10 03:31:12.568  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384517, 1.0)
+04-10 03:31:12.568 11440 11482 I SEMS:LocalContact_13.0.02: [ContactLog][RxCachedThreadScheduler-4][ContactHashObserverService] schedule result: true
+04-10 03:31:12.568  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:12.568  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.568  7877  9544 D EadLuxController: calculateAmbientLux(88384517, 10000)
+04-10 03:31:12.568  7877  9544 D EadLuxController: calculateAmbientLux(88384517, 10000)
+04-10 03:31:12.568  7877  9544 D EadLuxController: calculateAmbientLux(88384517, 2000)
+04-10 03:31:12.568  7877  9544 D EadLuxController: calculateAmbientLux(88384517, 2000)
+04-10 03:31:12.568  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386517 nextDarkenTransition: 88386517 time: 88384517
+04-10 03:31:12.568  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838651788386517 (in 2000 ms)
+04-10 03:31:12.569 11440 11468 D DCL-4.0.02-ProfileDatabaseHelper: insertProfileList exit : true
+04-10 03:31:12.569 11440 11440 I SEMS:AgentLog_13.8.52: [][main][MobileServiceApplication] onTrimMemory:40
+04-10 03:31:12.569 11440 11468 D DCL-4.0.02-CachedProfileDataSourceImpl: updateCachedProfileList
+04-10 03:31:12.569 11440 11468 D DCL-4.0.02-DataControlRepositoryImpl: updateCachedProfileList completed
+04-10 03:31:12.569 11440 11468 D Policy  : setProfileList completed
+04-10 03:31:12.569 11440 11468 I SEMS:SupportedService_13.8.52: [][RxCachedThreadScheduler-2][DclDataManager] loadDclProfile finished
+04-10 03:31:12.664  8978 10574 I GearContacts_DelayedMessageHandlerCallback: onCompleted! : onProfileDataChange
+04-10 03:31:12.664  8978 10574 I GearContacts_MessageHandlerCallbackImpl: onProfileDataChange
+04-10 03:31:12.666  8978  8978 I GearContacts_DataLayerUtil: get node successfully!
+04-10 03:31:12.667  8978  8978 I GearContacts_SaContactB2ProfileModelProvider: loadData
+04-10 03:31:12.667  8978  8978 I GearContacts_SaContactB2ProfileModelProvider: isConnected true
+04-10 03:31:12.672  8978 17258 I GearContacts_SaContactB2ProfileModelProvider: currentProfileUpdatedTimestamp: 1773512227932
+04-10 03:31:12.728  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384677, 1.0)
+04-10 03:31:12.728  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:12.728  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.728  7877  9544 D EadLuxController: calculateAmbientLux(88384677, 10000)
+04-10 03:31:12.729  7877  9544 D EadLuxController: calculateAmbientLux(88384677, 10000)
+04-10 03:31:12.729  7877  9544 D EadLuxController: calculateAmbientLux(88384677, 2000)
+04-10 03:31:12.729  7877  9544 D EadLuxController: calculateAmbientLux(88384677, 2000)
+04-10 03:31:12.729  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386677 nextDarkenTransition: 88386677 time: 88384677
+04-10 03:31:12.729  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838667788386677 (in 1999 ms)
+04-10 03:31:12.767  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:12.767  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:12.767  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:12.799  8324  8324 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+04-10 03:31:12.812  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:12.812  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:12.812  2112  6363 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+04-10 03:31:12.813  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:12.821  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x10, addressType=0, address=XX:XX:XX:XX:1A:95, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-96, periodicAdvInt=0x0
+04-10 03:31:12.822  4984  6388 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:D2:69, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-64, periodicAdvInt=0x0
+04-10 03:31:12.823 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:12.823 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][0, 0, 0, 0, 0, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+04-10 03:31:12.850  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x10, addressType=0, address=XX:XX:XX:XX:AB:83, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-93, periodicAdvInt=0x0
+04-10 03:31:12.852 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:12.852 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-88, 14, 0, 0, 0, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+04-10 03:31:12.889  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384838, 1.0)
+04-10 03:31:12.889  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:12.889  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:12.889  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 0ms]
+04-10 03:31:12.889  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:12.889  7877  9544 D EadLuxController: calculateAmbientLux(88384838, 10000)
+04-10 03:31:12.889  7877  9544 D EadLuxController: calculateAmbientLux(88384838, 10000)
+04-10 03:31:12.889  7877  9544 D EadLuxController: calculateAmbientLux(88384838, 2000)
+04-10 03:31:12.889  7877  9544 D EadLuxController: calculateAmbientLux(88384838, 2000)
+04-10 03:31:12.889  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386838 nextDarkenTransition: 88386838 time: 88384838
+04-10 03:31:12.889  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838683888386838 (in 2000 ms)
+04-10 03:31:12.911  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+04-10 03:31:12.911  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+04-10 03:31:12.911  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+04-10 03:31:12.915  4984  6388 I ScanController: onScanResult to scannerId: 3- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:D2:69, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-62, periodicAdvInt=0x0
+04-10 03:31:12.916  4984  6388 I ScanController: onScanResult to scannerId: 10- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:D2:69, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-62, periodicAdvInt=0x0
+04-10 03:31:12.916 14637 14693 D ScanFilter: manu data matches
+04-10 03:31:12.917 12885 14260 D ScanFilter: manu data matches
+04-10 03:31:12.917 21257   448 D ScanFilter: manu data matches
+04-10 03:31:12.917 12885 14260 I [-0500]oneconnect[1.8.41.23_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:($)-5(13)|deviceType:TV|discoverType:_BLE|services:_TvSoundToMobile|connected:false[TvStatusString]POWER_ON[TvStatus]1[TvService]111[TvMirrorChannel]157[TvRegisteredDB][84, -93, 29, -60, -48, 58][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter:     Client/Owner: Client
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter:     GroupId: 
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter:     Passphrase: 
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter:     SessionId: 0
+04-10 03:31:12.918  3027  5251 D WifiDisplayAdapter:     IP Address: }
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     Client/Owner: Client
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     GroupId: 
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     Passphrase: 
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     SessionId: 0
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     IP Address: }
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     Client/Owner: Client
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     GroupId: 
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     Passphrase: 
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     SessionId: 0
+04-10 03:31:12.919  3027  5159 D WifiDisplayAdapter:     IP Address: }
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter: getWifiDisplayStatusLocked: result=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter:     Client/Owner: Client
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter:     GroupId: 
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter:     Passphrase: 
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter:     SessionId: 0
+04-10 03:31:12.919  3027  5251 D WifiDisplayAdapter:     IP Address: }
+04-10 03:31:12.919 21257   448 I [-0500]oneconnect[1.8.41.23_01][BEACON_MANAGER_CONTROL_SERVICE]: TvOcfParser.onReceive - TV Popup Onboarding is skipped - ($)
+04-10 03:31:12.954  2112  6363 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+04-10 03:31:12.954  2112  6363 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+04-10 03:31:12.968  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:12.968  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:12.968  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:13.028 10309 10420 V SOH_SERVICE: Battery 0 : BattData { voltage:4.076, current:0.351562, soc:0.74, temperature:35.9, status:2, timestamp:1775809873024}
+04-10 03:31:13.048  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88384997, 1.0)
+04-10 03:31:13.048  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 0ms]
+04-10 03:31:13.048  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.048  7877  9544 D EadLuxController: calculateAmbientLux(88384997, 10000)
+04-10 03:31:13.048  7877  9544 D EadLuxController: calculateAmbientLux(88384997, 10000)
+04-10 03:31:13.048  7877  9544 D EadLuxController: calculateAmbientLux(88384997, 2000)
+04-10 03:31:13.048  7877  9544 D EadLuxController: calculateAmbientLux(88384997, 2000)
+04-10 03:31:13.048  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88386997 nextDarkenTransition: 88386997 time: 88384997
+04-10 03:31:13.048  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838699788386997 (in 2000 ms)
+04-10 03:31:13.049  2121 31717 I sensors-hal: handle_sns_std_sensor_event:408, [SSC_LIGHT] P: 1(1),c:0,b:149,m:13,cl:0,l:1,s:0,l0:352,l1:0,s0:0,s1:0,acl:1,opr:0.07,f(r):83,u(bl):91,if:83,wi:0,si:0,0(N:0)
+04-10 03:31:13.082  2186  2274 E HeatmapThread: ECT Thread time in milliseconds: 1775809873
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ batteryplugType : 2
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ batteryLevel : 74  batteryTemperature : 359 
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ Heatmap currtime: 29596831
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ Heatmap prevtime: 29596804
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ Heatmap plugstarttime: 29596824
+04-10 03:31:13.084  2186  2274 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29596399
+04-10 03:31:13.084  2186  2274 E HeatmapThread: !@ CAM New BSOH: 100
+04-10 03:31:13.104  2112  5467 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+04-10 03:31:13.168  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:13.168  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:13.169  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:13.209  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385158, 1.0)
+04-10 03:31:13.209  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 79ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 0ms]
+04-10 03:31:13.209  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.209  7877  9544 D EadLuxController: calculateAmbientLux(88385158, 10000)
+04-10 03:31:13.209  7877  9544 D EadLuxController: calculateAmbientLux(88385158, 10000)
+04-10 03:31:13.209  7877  9544 D EadLuxController: calculateAmbientLux(88385158, 2000)
+04-10 03:31:13.209  7877  9544 D EadLuxController: calculateAmbientLux(88385158, 2000)
+04-10 03:31:13.209  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387158 nextDarkenTransition: 88387158 time: 88385158
+04-10 03:31:13.209  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838715888387158 (in 2000 ms)
+04-10 03:31:13.294  3027  4354 E WifiStaIfaceAidlImpl: getCachedScanData failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+04-10 03:31:13.297  3027  6913 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13009, isSameBssidAndFreq true
+04-10 03:31:13.297  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: isProfiling, hash=15815440, started=true
+04-10 03:31:13.298 17434 17434 D WifiBroadcastReceiver: Received intent: android.net.wifi.RSSI_CHANGED
+04-10 03:31:13.298  3027  4458 I SemWifiLinkQualityMonitor: Link stat: 1260 / 0 / 1.25 (30) / 1296 / -60.0 || 100.0 : 1296.00 / 0.5 : 0.80 / 0.55 : 0.00 / G (G) || 0645699a6135: 0.078 / 102.337 / N || N N / 0 0 / N 2.0 / N X 0 / 88385246 0 || 2026-04-10 03:31:12  / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0
+04-10 03:31:13.298  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: isWifiRssiLessOrEqualsHandoverThreshold: received rssi is: -60 handover threshold is: -85
+04-10 03:31:13.298  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: isProfiling, hash=15815440, started=true
+04-10 03:31:13.299  3027  4459 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : N. Outage Triggered: false
+04-10 03:31:13.299  3027  4459 D SemInsManager: {"bssid": "0645699a6135","rssi": -60.0,"latency": 0.07817283950617283,"outage_count": 0,"lq_callback_triggered": false,"outage_log": "Link stat: 1260 / 0 / 1.25 (30) / 1296 / -60.0 || 100.0 : 1296.00 / 0.5 : 0.80 / 0.55 : 0.00 / G (G) || 0645699a6135: 0.078 / 102.337 / N || N N / 0 0 / N 2.0 / N X 0 / 88385246 0 || 2026-04-10 03:31:12  / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+04-10 03:31:13.299 17434 17434 I RssiHandler: received android.net.wifi.RSSI_CHANGED
+04-10 03:31:13.299  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: Rssi : -60 highrange : -71 lowrange : -80 mIsRssiInHystersis : false
+04-10 03:31:13.299  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: Rssi : -60 highrange : -71 lowrange : -80 mIsRssiInHystersis : false
+04-10 03:31:13.299  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: isL2WHandoverProfilingRunning: returning: false
+04-10 03:31:13.299  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: No need to send L2WHandoverProfiling runnable
+04-10 03:31:13.299  4869  4869 I EPDG -- SIM1 [SMARTWIFI]: getHandoverThresholdMet: value is: false
+04-10 03:31:13.300  4660  4758 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10302, AttributionTag=null, Package name=com.spectrum.cm.headless, Paused=false)
+04-10 03:31:13.300  3027  4476 D SGM:GameManager: identifyGamePackage. com.sovereignbridge, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+04-10 03:31:13.300  3027  4476 D SGM:SemGameManager: isGamePackage(), pkgName=com.sovereignbridge, ret=false
+04-10 03:31:13.309  4660  4660 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+04-10 03:31:13.310  4660  4660 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 1
+04-10 03:31:13.310  4660  4660 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+04-10 03:31:13.313  5196  5326 I HoneySpace.StatusIconTracker: invokeEvent() called with: event = PrivacyInfo(visible=false)
+04-10 03:31:13.315  2252  2734 I CompositionEngine: [setDisplaySize] size=(680, 56)
+04-10 03:31:13.317  2252  3020 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+04-10 03:31:13.318  4660  4660 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a32ed5b V.E...... ......ID 0,0-1440,443 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+04-10 03:31:13.318  4660  4660 W View    : requestLayout() improperly called by android.widget.FrameLayout{b62f9f8 V.E...... ......I. 0,0-1440,3120 #2} during layout: running second layout pass
+04-10 03:31:13.318  4660  4660 W View    : requestLayout() improperly called by android.widget.FrameLayout{f1e2ed1 V.E...... ......ID 0,203-1440,3120 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+04-10 03:31:13.319  4660  4660 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+04-10 03:31:13.325  2252  2391 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+04-10 03:31:13.368  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385317, 1.0)
+04-10 03:31:13.368  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:13.368  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 0ms]
+04-10 03:31:13.368  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:13.368  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.368  7877  9544 D EadLuxController: calculateAmbientLux(88385317, 10000)
+04-10 03:31:13.368  7877  9544 D EadLuxController: calculateAmbientLux(88385317, 10000)
+04-10 03:31:13.369  7877  9544 D EadLuxController: calculateAmbientLux(88385317, 2000)
+04-10 03:31:13.369  7877  9544 D EadLuxController: calculateAmbientLux(88385317, 2000)
+04-10 03:31:13.369  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387317 nextDarkenTransition: 88387317 time: 88385317
+04-10 03:31:13.369  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838731788387317 (in 1999 ms)
+04-10 03:31:13.369  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:13.419  2252  2734 I CompositionEngine: [setDisplaySize] size=(680, 56)
+04-10 03:31:13.492 11440 11463 D CompatChangeReporter: Compat change id reported: 288912692; UID 10124; state: ENABLED
+04-10 03:31:13.520  2252  2734 I CompositionEngine: [setDisplaySize] size=(680, 56)
+04-10 03:31:13.520  7895  7895 I SDHMS:LOAD: type: LoadsFreqs, value: 1:0:0:1099775:3072000:1017600:970751:2745600:556800:222:222:222
+04-10 03:31:13.528  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385477, 1.0)
+04-10 03:31:13.528  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:13.528  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.528  7877  9544 D EadLuxController: calculateAmbientLux(88385477, 10000)
+04-10 03:31:13.529  7877  9544 D EadLuxController: calculateAmbientLux(88385477, 10000)
+04-10 03:31:13.529  7877  9544 D EadLuxController: calculateAmbientLux(88385477, 2000)
+04-10 03:31:13.529  7877  9544 D EadLuxController: calculateAmbientLux(88385477, 2000)
+04-10 03:31:13.529  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387477 nextDarkenTransition: 88387477 time: 88385477
+04-10 03:31:13.529  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838747788387477 (in 1999 ms)
+04-10 03:31:13.548  2123  4545 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xb6
+04-10 03:31:13.548  4550  4550 I wpa_supplicant: nl80211: Vendor event: wiphy=0 vendor_id=0x1374 subcmd=182
+04-10 03:31:13.549  2802  4546 D LOWI-9.0.1.112.a: [LOWI-Scan] wait_event:Wait done with Cmd 103
+04-10 03:31:13.549  2802  4546 D LOWI-9.0.1.112.a: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+04-10 03:31:13.549  2653  2653 I cnss-daemon: nl80211 response handler invoked
+04-10 03:31:13.549  2653  2653 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 182  received
+04-10 03:31:13.568  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:13.569  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:13.569  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:13.620  2252  2734 I CompositionEngine: [setDisplaySize] size=(680, 56)
+04-10 03:31:13.654  2140  2494 I SDM     : DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+04-10 03:31:13.688  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385637, 1.0)
+04-10 03:31:13.689  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 1ms]
+04-10 03:31:13.689  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.689  7877  9544 D EadLuxController: calculateAmbientLux(88385637, 10000)
+04-10 03:31:13.689  7877  9544 D EadLuxController: calculateAmbientLux(88385637, 10000)
+04-10 03:31:13.689  7877  9544 D EadLuxController: calculateAmbientLux(88385637, 2000)
+04-10 03:31:13.689  7877  9544 D EadLuxController: calculateAmbientLux(88385637, 2000)
+04-10 03:31:13.689  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387637 nextDarkenTransition: 88387637 time: 88385637
+04-10 03:31:13.689  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838763788387637 (in 1999 ms)
+04-10 03:31:13.769  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:13.769  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:13.769  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:13.823  2121  6998 I sensors-hal: handle_sns_client_event:379, [0][4700801] accel_sample [-2.021, -0.313,  9.703] 193239274624110
+04-10 03:31:13.848  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385797, 1.0)
+04-10 03:31:13.848  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:13.848  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:13.848  7877  9544 D EadLuxController: calculateAmbientLux(88385797, 10000)
+04-10 03:31:13.848  7877  9544 D EadLuxController: calculateAmbientLux(88385797, 10000)
+04-10 03:31:13.849  7877  9544 D EadLuxController: calculateAmbientLux(88385797, 2000)
+04-10 03:31:13.849  7877  9544 D EadLuxController: calculateAmbientLux(88385797, 2000)
+04-10 03:31:13.849  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387797 nextDarkenTransition: 88387797 time: 88385797
+04-10 03:31:13.849  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838779788387797 (in 1999 ms)
+04-10 03:31:13.925  7702  7702 D SSS:AugmentedAutofillService: AugmentedAutofillService: onUnbind()
+04-10 03:31:13.927  7702  7702 D SSS:AugmentedAutofillService: AugmentedAutofillService: onDestroy()
+04-10 03:31:13.928  7702  7702 D SSS:AugmentedAutofillService: AugmentedAutofillService: onDisconnected()
+04-10 03:31:13.970  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:13.970  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:13.970  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:14.008  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88385957, 1.0)
+04-10 03:31:14.008  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:14.009  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:14.009  7877  9544 D EadLuxController: calculateAmbientLux(88385957, 10000)
+04-10 03:31:14.009  7877  9544 D EadLuxController: calculateAmbientLux(88385957, 10000)
+04-10 03:31:14.009  7877  9544 D EadLuxController: calculateAmbientLux(88385957, 2000)
+04-10 03:31:14.009  7877  9544 D EadLuxController: calculateAmbientLux(88385957, 2000)
+04-10 03:31:14.009  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88387957 nextDarkenTransition: 88387957 time: 88385957
+04-10 03:31:14.009  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838795788387957 (in 1999 ms)
+04-10 03:31:14.029 10309 10420 V SOH_SERVICE: Battery 0 : BattData { voltage:4.076, current:0.359375, soc:0.74, temperature:35.9, status:2, timestamp:1775809874028}
+04-10 03:31:14.081  2186  2274 E HeatmapThread: ECT Thread time in milliseconds: 1775809874
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ batteryplugType : 2
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ batteryLevel : 74  batteryTemperature : 359 
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ Heatmap currtime: 29596831
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ Heatmap prevtime: 29596804
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ Heatmap plugstarttime: 29596824
+04-10 03:31:14.084  2186  2274 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29596399
+04-10 03:31:14.084  2186  2274 E HeatmapThread: !@ CAM New BSOH: 100
+04-10 03:31:14.146  2154  3078 I thermal_core: pivot(AP) : 408, skin : 377
+04-10 03:31:14.168  7877  9544 D EadLuxController: mAmbientLightRingBuffer.push(88386117, 1.0)
+04-10 03:31:14.168  7877  9544 D EadLuxController: mAmbientLightRingBuffer.toString() - [1.0 / 80ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 160ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 161ms, 1.0 / 159ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 160ms, 1.0 / 0ms]
+04-10 03:31:14.168  7877  9544 D EadLuxController: mAmbientLuxValid: true
+04-10 03:31:14.168  7877  9544 D EadLuxController: calculateAmbientLux(88386117, 10000)
+04-10 03:31:14.168  7877  9544 D EadLuxController: calculateAmbientLux(88386117, 10000)
+04-10 03:31:14.168  7877  9544 D EadLuxController: calculateAmbientLux(88386117, 2000)
+04-10 03:31:14.168  7877  9544 D EadLuxController: calculateAmbientLux(88386117, 2000)
+04-10 03:31:14.168  7877  9544 D EadLuxController: slowAmbientLux: 1.0 fastAmbientLux: 1.0 mAmbientBrighteningThreshold: 10.0 mAmbientDarkeningThreshold: -1.0 nextBrightenTransition: 88388117 nextDarkenTransition: 88388117 time: 88386117
+04-10 03:31:14.168  7877  9544 D EadLuxController: updateAmbientLux: Scheduling ambient lux update for 8838811788388117 (in 2000 ms)
+04-10 03:31:14.171  3027  3194 D PowerManagerService: displayReady: false groupId=0
+04-10 03:31:14.171  3027  3194 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+04-10 03:31:14.171  3027  3194 D PowerManagerService: displayReady: true groupId=0
+04-10 03:31:14.175  2124  2145 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+04-10 03:31:14.175  2124  2145 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+04-10 03:31:14.175  2124  2145 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+04-10 03:31:14.176  2154  3078 D vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+04-10 03:31:14.176  2124  2146 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+04-10 03:31:14.176  2124  2146 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+04-10 03:31:14.176  2124  2146 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+04-10 03:31:14.176  2154  3078 D vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+04-10 03:31:14.176  2154  3078 D vendor.samsung.hardware.thermal-service: 373 > 450 = 0
+04-10 03:31:14.176  2154  3078 D vendor.samsung.hardware.thermal-service: 1 & 0 = 0
+04-10 03:31:14.177  2154  3078 D vendor.samsung.hardware.thermal-service: 249 > 250 = 0
+04-10 03:31:14.177  2154  3078 D vendor.samsung.hardware.thermal-service: 0 & 0 = 0
+04-10 03:31:14.177  2154  3078 D vendor.samsung.hardware.thermal-service:  - HIGH -> 0
+04-10 03:31:14.178  7895  8475 I SDHMS:x : SIOP:: AP:408 BAT:359 USB:321 CHG:414 PA:414 WIFI:406 CF:392 BLK:0 SUBBAT:0 LRPTHM:378 SKIN:373 SKINF:365 SKINB:373 LRP:373 LRF:365 LRB:373 APT:365 APR:373 RCV:367 SPK:315 CHGF:359 CHGR:369 MEMF:363 MEMR:373 WIFIF:363 WIFIR:371 FCAM:321 UPSPK:373 DNSPK:320 VAP:431 VWIFI:406 AMB2:249 HIGH:0 AVGCUR:159 AVGSYS:473 POWER:643
+04-10 03:31:14.178  7895  8475 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=32
+04-10 03:31:14.179  2182 20489 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=32
+04-10 03:31:14.180  2124  2146 D AHAL_HFP_QTI: hfp_set_parameters enter
+04-10 03:31:14.180  2124  2146 D AHAL_HFP_QTI: hfp_set_parameters Exit
+04-10 03:31:14.180  2124  2146 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+04-10 03:31:14.180  2124  2146 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+04-10 03:31:14.180  2124  2146 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 32
+04-10 03:31:14.180  2124  2146 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+04-10 03:31:14.180  2124  2146 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+04-10 03:31:14.180  2182 20489 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+04-10 03:31:14.180  2182 20489 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+04-10 03:31:14.181  7895  8475 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=37
+04-10 03:31:14.181  2182 20489 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=37
+04-10 03:31:14.181  2124  2146 D AHAL_HFP_QTI: hfp_set_parameters enter
+04-10 03:31:14.181  2124  2146 D AHAL_HFP_QTI: hfp_set_parameters Exit
+04-10 03:31:14.181  2124  2146 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+04-10 03:31:14.181  2124  2146 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+04-10 03:31:14.181  2124  2146 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 37
+04-10 03:31:14.181  2124  2146 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+04-10 03:31:14.182  2124  2146 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+04-10 03:31:14.182  2182 20489 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+04-10 03:31:14.182  2182 20489 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+04-10 03:31:14.183  7895  8075 I M0      : limitCPUFreq:: freq = 3513600
+04-10 03:31:14.183  7895  8075 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/7895@3, type = 301993986
+04-10 03:31:14.184  2128  2276 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 31193154  [7895 / 3]    HINT :      list : [CPUMaxFreq / 3513600] 
