@@ -1,3 +1,7 @@
+---
+name: skill-forge
+description: Generate complete Edge Gallery agent skills from natural-language requests using deterministic templates and validation.
+---
 # Skill: skill-forge
 
 ## Purpose
