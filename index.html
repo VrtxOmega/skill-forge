@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forge · VERITAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* VERITAS Gold & Obsidian Palette */
+            --obsidian-900: #0A0A0A;
+            --obsidian-800: #121212;
+            --obsidian-700: #1A1A1A;
+            --obsidian-600: #262626;
+            
+            --gold-500: #D4AF37;
+            --gold-400: #E6C555;
+            --gold-600: #B5952F;
+            --gold-glow: rgba(212, 175, 55, 0.15);
+
+            --text-100: #FFFFFF;
+            --text-200: #E0E0E0;
+            --text-300: #A0A0A0;
+            --text-400: #707070;
+
+            --danger: #FF4A4A;
+            --success: #4AFF8A;
+
+            --font-sans: 'Inter', sans-serif;
+            --font-display: 'Outfit', sans-serif;
+            --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--obsidian-900);
+            color: var(--text-200);
+            font-family: var(--font-sans);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Generic Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--obsidian-900);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--obsidian-600);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-400);
+        }
+
+        .layout {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Left Pane: Config & Prompt */
+        .left-pane {
+            width: 320px;
+            background-color: var(--obsidian-800);
+            border-right: 1px solid var(--obsidian-600);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            z-index: 10;
+            box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+        }
+
+        .brand {
+            font-family: var(--font-display);
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--gold-500);
+            letter-spacing: 1px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .brand span { color: var(--text-100); }
+        .brand svg { width: 24px; height: 24px; fill: var(--gold-500); }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-400);
+            margin-bottom: 8px;
+        }
+        
+        .input-group input, 
+        .input-group textarea {
+            width: 100%;
+            background-color: var(--obsidian-900);
+            border: 1px solid var(--obsidian-600);
+            color: var(--text-100);
+            padding: 12px;
+            border-radius: 6px;
+            font-family: var(--font-sans);
+            font-size: 14px;
+            transition: all 0.2s ease;
+            outline: none;
+        }
+        .input-group input:focus, 
+        .input-group textarea:focus {
+            border-color: var(--gold-500);
+            box-shadow: 0 0 0 2px var(--gold-glow);
+        }
+        .input-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background: var(--obsidian-700);
+            color: var(--text-300);
+            margin-bottom: 24px;
+            transition: all 0.3s ease;
+        }
+        .status-badge.generated { background: rgba(74, 144, 226, 0.15); color: #4A90E2; }
+        .status-badge.validated { background: rgba(74, 255, 138, 0.15); color: var(--success); }
+        .status-badge.ready { background: var(--gold-glow); color: var(--gold-500); }
+
+        .btn-primary {
+            background-color: var(--gold-500);
+            color: var(--obsidian-900);
+            border: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: auto;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .btn-primary:hover {
+            background-color: var(--gold-400);
+            box-shadow: 0 4px 12px var(--gold-glow);
+            transform: translateY(-1px);
+        }
+
+        /* Right Pane: Preview / Output */
+        .right-pane {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--obsidian-900);
+        }
+
+        .tab-bar {
+            display: flex;
+            background-color: var(--obsidian-800);
+            border-bottom: 1px solid var(--obsidian-600);
+            padding: 0 24px;
+        }
+
+        .tab {
+            padding: 20px 24px;
+            color: var(--text-400);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        .tab:hover { color: var(--text-200); }
+        .tab.active {
+            color: var(--gold-500);
+            border-bottom-color: var(--gold-500);
+        }
+
+        .toolbar {
+            padding: 12px 24px;
+            background: var(--obsidian-700);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            border-bottom: 1px solid var(--obsidian-600);
+        }
+
+        .btn-secondary {
+            background: var(--obsidian-600);
+            color: var(--text-200);
+            border: 1px solid var(--obsidian-600);
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-secondary:hover {
+            background: var(--obsidian-800);
+            border-color: var(--text-400);
+        }
+
+        .editor-container {
+            flex: 1;
+            position: relative;
+            padding: 24px;
+            overflow: auto;
+        }
+
+        .code-block {
+            background: var(--obsidian-800);
+            border: 1px solid var(--obsidian-600);
+            border-radius: 8px;
+            padding: 20px;
+            font-family: var(--font-mono);
+            font-size: 13px;
+            color: var(--text-100);
+            line-height: 1.6;
+            white-space: pre-wrap;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .panel { display: none; height: 100%; }
+        .panel.active { display: block; }
+        
+        /* Validation State UI */
+        .val-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            background: var(--obsidian-800);
+            border: 1px solid var(--obsidian-600);
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .val-icon {
+            width: 20px; height: 20px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .val-pass { background: rgba(74, 255, 138, 0.1); color: var(--success); }
+        .val-fail { background: rgba(255, 74, 74, 0.1); color: var(--danger); }
+        .val-text { font-size: 14px; font-weight: 500; }
+        .val-desc { font-size: 12px; color: var(--text-400); margin-top: 4px; }
+        
+    </style>
+</head>
+<body>
+
+<div class="layout">
+    <!-- Configuration Pane -->
+    <div class="left-pane">
+        <div class="brand">
+            <svg viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zm0 4.5l6.5 13h-13L12 6.5zM12 10l-3 6h6l-3-6z"/></svg>
+            FORGE <span>&Omega;</span>
+        </div>
+
+        <div id="statusBadge" class="status-badge">DRAFT</div>
+
+        <div class="input-group">
+            <label>Prompt intent</label>
+            <textarea id="promptInput" placeholder="What kind of skill do you want to build?"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label>Skill Name</label>
+            <input type="text" id="skillName" placeholder="e.g. calculator-tool" />
+        </div>
+
+        <div class="input-group">
+            <label>Capabilities</label>
+            <input type="text" id="skillCaps" placeholder="e.g. arithmetic, history" />
+        </div>
+
+        <button class="btn-primary" id="btnGenerate">Generate Bundles</button>
+    </div>
+
+    <!-- Output Pane -->
+    <div class="right-pane">
+        <div class="tab-bar">
+            <div class="tab active" data-target="panel-spec">Spec</div>
+            <div class="tab" data-target="panel-html">index.html</div>
+            <div class="tab" data-target="panel-js">index.js</div>
+            <div class="tab" data-target="panel-manifest">skill.md</div>
+            <div class="tab" data-target="panel-deploy">Deploy</div>
+            <div class="tab" data-target="panel-val">Validation</div>
+        </div>
+
+        <div class="toolbar">
+            <button class="btn-secondary" id="btnCopy">Copy Content</button>
+            <button class="btn-secondary" id="btnExport">Export Bundle</button>
+            <button class="btn-secondary" id="btnDeploy" style="border-color: var(--gold-500); color: var(--gold-500); display: none;">Deploy Locally</button>
+        </div>
+
+        <div class="editor-container">
+            <div id="panel-spec" class="panel active">
+                <div class="code-block" id="outSpec">Waiting for intent extraction...</div>
+            </div>
+            
+            <div id="panel-html" class="panel">
+                <div class="code-block" id="outHtml">Waiting for generation...</div>
+            </div>
+            
+            <div id="panel-js" class="panel">
+                <div class="code-block" id="outJs">Waiting for generation...</div>
+            </div>
+            
+            <div id="panel-manifest" class="panel">
+                <div class="code-block" id="outManifest">Waiting for generation...</div>
+            </div>
+
+            <div id="panel-deploy" class="panel">
+                <div class="input-group">
+                    <label>ADB Deploy Command</label>
+                    <textarea readonly id="outDeploy" style="font-family: var(--font-mono); color: var(--gold-500); cursor: text;">Waiting for generation...</textarea>
+                </div>
+                <p style="font-size: 13px; color: var(--text-400); line-height: 1.5; margin-top: 12px;">Run this command in PowerShell while your phone is connected to push this new skill directly to your device. Then, in Edge Gallery, add a local skill and pick the <code style="color:var(--text-200);">Download/</code> directory you pushed to.</p>
+            </div>
+
+            <div id="panel-val" class="panel">
+                <div class="val-item">
+                    <div class="val-icon val-fail" id="valSyntaxIcon">&#10005;</div>
+                    <div>
+                        <div class="val-text">Structural Validation</div>
+                        <div class="val-desc" id="valSyntaxDesc">No artifacts generated yet.</div>
+                    </div>
+                </div>
+                <div class="val-item">
+                    <div class="val-icon val-fail" id="valDeployIcon">&#10005;</div>
+                    <div>
+                        <div class="val-text">Deployment Readiness</div>
+                        <div class="val-desc" id="valDeployDesc">Missing required fields.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // App Logic for FORGE UI
+    
+    // Attempt to load spec from Edge Gallery args (if encoded in URL)
+    window.addEventListener('DOMContentLoaded', () => {
+        try {
+            const hash = window.location.hash.substring(1);
+            if (hash) {
+                const data = JSON.parse(decodeURIComponent(hash));
+                if (data && data.skill_name) {
+                    processExtractedSpec(data);
+                }
+            }
+        } catch(e) {
+            console.log('No pre-loaded spec found');
+        }
+    });
+
+    // Tab Switching
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', (e) => {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            
+            e.target.classList.add('active');
+            document.getElementById(e.target.getAttribute('data-target')).classList.add('active');
+        });
+    });
+
+    // Generate Button Mock Loop
+    document.getElementById('btnGenerate').addEventListener('click', () => {
+        const prompt = document.getElementById('promptInput').value || 'generic-skill';
+        const nameInput = document.getElementById('skillName').value || prompt.substring(0, 15).replace(/\s+/g,'-').toLowerCase() + '-tool';
+        
+        processExtractedSpec({
+            skill_name: nameInput,
+            description: "Generated by FORGE. " + prompt,
+            purpose: "Autonomous execution block.",
+            triggers: [ "Run " + nameInput ],
+            tools: ["run_js"],
+            files: ["index.html", "index.js"]
+        });
+    });
+
+    function setStatus(state) {
+        const badge = document.getElementById('statusBadge');
+        badge.textContent = state;
+        badge.className = 'status-badge';
+        if (state === 'GENERATED') badge.classList.add('generated');
+        if (state === 'VALIDATED') badge.classList.add('validated');
+        if (state === 'READY') badge.classList.add('ready');
+    }
+
+    function processExtractedSpec(spec) {
+        setStatus('GENERATED');
+        
+        // Spec 
+        document.getElementById('outSpec').textContent = JSON.stringify(spec, null, 2);
+        document.getElementById('skillName').value = spec.skill_name;
+        
+        // HTML Template
+        document.getElementById('outHtml').textContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${spec.skill_name}</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0A0A0A; color: #FFF; padding: 2rem; }
+        .container { max-width: 800px; margin: 0 auto; background: #1A1A1A; padding: 2rem; border-radius: 8px; border: 1px solid #333; }
+        h1 { color: #D4AF37; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>${spec.skill_name}</h1>
+        <p>${spec.description}</p>
+        <div id="app"></div>
+    </div>
+    <script src="index.js"><\/script>
+</body>
+</html>`;
+
+        // JS Template
+        document.getElementById('outJs').textContent = `/**
+ * Main entrypoint for ${spec.skill_name}
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    const app = document.getElementById('app');
+    app.innerHTML = '<p>Agent connected. Ready for execution.</p>';
+    
+    // To wire tool calls back to Edge Gallery context:
+    window.onload = function() {
+        console.log("${spec.skill_name} initialized and bound to context.");
+    };
+});`;
+
+        // skill.md Template
+        document.getElementById('outManifest').textContent = `# Skill: ${spec.skill_name}
+
+## Purpose
+${spec.purpose}
+
+## Expected Files
+${spec.files.map(f => '- ' + f).join('\n')}
+
+## Triggers
+${spec.triggers.map(t => '- "' + t + '"').join('\n')}
+
+## Tool Execution
+Call \`run_js\` to interface with this application runtime.`;
+
+        // Deploy Command Template
+        document.getElementById('outDeploy').value = `adb push "c:\\Veritas_Lab\\${spec.skill_name}" /sdcard/Download/${spec.skill_name}`;
+
+        // Validation Simulation
+        setTimeout(() => {
+            validateSpec(spec);
+        }, 800);
+    }
+
+    function validateSpec(spec) {
+        let valid = true;
+        
+        // Syntax
+        const synIcon = document.getElementById('valSyntaxIcon');
+        const synDesc = document.getElementById('valSyntaxDesc');
+        if (spec.skill_name && /^[a-z0-9-]+$/.test(spec.skill_name)) {
+            synIcon.innerHTML = '&#10003;';
+            synIcon.className = 'val-icon val-pass';
+            synDesc.textContent = 'Valid naming and document structure passed.';
+        } else {
+            synIcon.innerHTML = '&#10005;';
+            synIcon.className = 'val-icon val-fail';
+            synDesc.textContent = 'Invalid skill name. Must be lowercase kebab-case.';
+            valid = false;
+        }
+        
+        // Deploy Readiness
+        const depIcon = document.getElementById('valDeployIcon');
+        const depDesc = document.getElementById('valDeployDesc');
+        if (spec.files && spec.files.includes('index.html') && spec.files.includes('index.js')) {
+            depIcon.innerHTML = '&#10003;';
+            depIcon.className = 'val-icon val-pass';
+            depDesc.textContent = 'Required files present. Build is sealed.';
+        } else {
+            depIcon.innerHTML = '&#10005;';
+            depIcon.className = 'val-icon val-fail';
+            depDesc.textContent = 'Missing required files for native deployment.';
+            valid = false;
+        }
+
+        if (valid) {
+            setStatus('READY');
+            document.getElementById('btnDeploy').style.display = 'inline-block';
+        } else {
+            setStatus('VALIDATED');
+        }
+    }
+
+    // Copy Content
+    document.getElementById('btnCopy').addEventListener('click', () => {
+        const activeTabTarget = document.querySelector('.tab.active').getAttribute('data-target');
+        const container = document.getElementById(activeTabTarget);
+        if (container) {
+            const content = container.querySelector('.code-block').textContent;
+            navigator.clipboard.writeText(content);
+            const btn = document.getElementById('btnCopy');
+            btn.textContent = 'Copied!';
+            setTimeout(() => btn.textContent = 'Copy Content', 2000);
+        }
+    });
+
+</script>
+</body>
+</html>
