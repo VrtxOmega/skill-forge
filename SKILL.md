@@ -22,8 +22,8 @@ When triggered:
 3. Extract description, triggers, capabilities, inputs, outputs, and tools.
 4. Select the closest internal template (e.g., single-page tool, dashboard, utility).
 5. Generate the required file contents (`index.html`, `index.js`, metadata block).
-6. Validate that all required parts are present (no missing syntax, no undeclared network calls, fail closed).
-7. Return the structured result so it can be passed to the UI.
+6. Pass this JSON object to the skill's execution tool to launch the UI. DO NOT JUST PRINT THE CODE IN THE CHAT.
+7. The tool will return a webview. You must present this webview to the user.
 
 ## Output format
 Always include in your JSON spec:
@@ -36,7 +36,9 @@ Always include in your JSON spec:
 - UI Requirements (theme, style)
 
 ## Tool instructions
-Call the `run_js` tool to open the skill-forge UI, passing the generated structured spec if possible.
+You MUST execute the native skill tool (usually named `skill_forge` or similar) to launch the FORGE UI.
+Pass the entire JSON specification you generated as the argument to the tool. 
+DO NOT just output the code in the chat! You MUST call the tool so the user can see the UI.
 
 ## Files
 - `index.html`: loads the local interface
